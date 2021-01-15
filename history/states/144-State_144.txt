@@ -1,0 +1,28 @@
+
+state={
+	id=144
+	name="STATE_144"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = ILD
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = ILD
+		victory_points = {
+        	    155 10
+        	}
+	}
+
+	provinces={
+		155 327 399 1078 1297 1685 1777 1835 2224 
+	}
+	manpower=908396
+	state_category=town
+}

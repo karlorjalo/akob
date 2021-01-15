@@ -1,0 +1,30 @@
+
+state={
+	id=105
+	name="STATE_105"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = ARS
+		buildings = {
+			infrastructure = 7
+			arms_factory = 4
+			industrial_complex = 5
+
+		}
+		victory_points = {
+        	    154 70
+        	}
+		add_core_of = ARS
+
+	}
+
+	provinces={
+		2 154 165 168 585 961 1396 1832 1919 2133 
+	}
+	manpower=2571295
+	state_category=megalopolis
+}

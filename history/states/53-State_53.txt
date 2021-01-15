@@ -1,0 +1,30 @@
+
+state={
+	id=53
+	name="STATE_53"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = GOZ
+		buildings = {
+			infrastructure = 8
+			arms_factory = 2
+			industrial_complex = 15
+
+		}
+		add_core_of = GOZ
+		victory_points = {
+        	    371 15
+        	}
+	}
+
+	provinces={
+		371 611 684 694 849 913 1863 1954 2044 
+	}
+	manpower=1315953
+	buildings_max_level_factor=6.000
+	state_category=supercity
+}

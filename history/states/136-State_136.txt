@@ -1,0 +1,27 @@
+
+state={
+	id=136
+	name="STATE_136"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = ICR
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = ICR
+		victory_points = {
+        	    2190 10
+        	}
+	}
+
+	provinces={
+		30 561 1361 1414 2182 2190 
+	}
+	manpower=1069874
+	state_category=town
+}

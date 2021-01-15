@@ -1,0 +1,28 @@
+state={
+	id=88
+	name="STATE_88"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = ICR
+		buildings = {
+			infrastructure = 7
+			arms_factory = 6
+			industrial_complex = 9
+
+		}
+		add_core_of = ICR
+		victory_points = {
+        	    555 50
+        	}
+	}
+	state_category=megacity
+	provinces={
+		360 555 1015 1330 1416 1614 1671 
+	}
+	manpower=1449750
+	add_extra_state_shared_building_slots = 3
+}

@@ -1,0 +1,25 @@
+state={
+	id=208
+	name="STATE_208"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = ARS
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = ARS
+		victory_points = {
+        	    1541 10
+        	}
+	}
+	state_category=town
+	provinces={
+		812 876 890 1152 1458 1541 1556 1756 2328 2340 2347 2349 
+	}
+	manpower=785091
+}

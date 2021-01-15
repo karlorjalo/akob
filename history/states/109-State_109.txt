@@ -1,0 +1,28 @@
+state={
+	id=109
+	name="STATE_109"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = ICR
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = ICR
+		victory_points = {
+        	    118 10
+        	}
+		victory_points = {
+        	    1629 10
+        	}
+	}
+	state_category=wasteland
+	provinces={
+		65 118 133 273 610 1594 1629 1709 2151 2155 2160 
+	}
+	manpower=1056652
+}

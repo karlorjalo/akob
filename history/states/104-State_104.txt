@@ -1,0 +1,32 @@
+
+state={
+	id=104
+	name="STATE_104"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = ICR
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 3
+
+		}
+		add_core_of = ICR
+		victory_points = {
+        	    113 10
+        	}
+		victory_points = {
+        	    2166 15
+        	}
+	}
+
+	provinces={
+		113 906 949 1068 1262 1299 1668 2143 2163 2166 
+	}
+	manpower=1212807
+	state_category=city
+}

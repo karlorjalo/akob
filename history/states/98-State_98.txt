@@ -1,0 +1,30 @@
+state={
+	id=98
+	name="STATE_98"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = ILD
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 2
+
+		}
+		add_core_of = ILD
+		victory_points = {
+        	    1428 10
+        	}
+		victory_points = {
+        	    47 50
+        	}
+	}
+	state_category=town
+	provinces={
+		47 276 278 335 416 564 619 1312 1428 1650 1654 1723 1865 2128 2134 2142 2149 
+	}
+	manpower=4021014
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=37
+	name="STATE_37"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = ARS
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 3
+
+		}
+		add_core_of = ARS
+		victory_points = {
+        	    1198 35
+        	}
+		victory_points = {
+        	    986 10
+        	}
+		victory_points = {
+        	    2346 10
+        	}
+	}
+
+	provinces={
+		76 79 226 378 640 927 986 1198 1391 1662 2346 2354 
+	}
+	manpower=3768750
+	state_category=large_city
+}

@@ -1,0 +1,39 @@
+
+state={
+	id=188
+	name="STATE_188"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = TRB
+		buildings = {
+			infrastructure = 6
+			arms_factory = 12
+			industrial_complex = 13
+
+		}
+		add_core_of = TRB
+		victory_points = {
+        	    449 10
+        	}
+		victory_points = {
+        	    444 30
+        	}
+		victory_points = {
+        	    800 40
+        	}
+		victory_points = {
+        	    596 10
+        	}
+	}
+
+	provinces={
+		160 402 444 449 523 598 800 1049 1133 1220 1533 1554 1619 1858 1878 2290 2309 
+	}
+	manpower=4155738
+	buildings_max_level_factor=16.000
+	state_category=supercity
+}

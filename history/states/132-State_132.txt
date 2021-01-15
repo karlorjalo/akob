@@ -1,0 +1,29 @@
+
+state={
+	id=132
+	name="STATE_132"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = EFR
+		buildings = {
+			infrastructure = 7
+			arms_factory = 3
+			industrial_complex = 7
+
+		}
+		add_core_of = EFR
+		victory_points = {
+        	    1778 50
+        	}
+	}
+
+	provinces={
+		445 685 732 1046 1538 1666 1711 1778 2313 
+	}
+	manpower=5211636
+	state_category=metropolis
+}

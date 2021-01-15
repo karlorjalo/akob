@@ -1,0 +1,33 @@
+
+state={
+	id=66
+	name="STATE_66"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = ICR
+		buildings = {
+			infrastructure = 5
+			arms_factory = 4
+			industrial_complex = 7
+
+		}
+		victory_points = {
+        	    496 10
+        	}
+		victory_points = {
+        	    1891 10
+        	}
+		add_core_of = ICR
+
+	}
+
+	provinces={
+		289 436 470 496 1069 1446 1570 1682 1861 1891 2054 2056 2079 2082 2085 
+	}
+	manpower=1146720
+	state_category=megalopolis
+}

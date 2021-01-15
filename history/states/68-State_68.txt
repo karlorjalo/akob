@@ -1,0 +1,25 @@
+
+state={
+	id=68
+	name="STATE_68"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = AGR
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = AGR
+
+	}
+
+	provinces={
+		506 1351 2071 
+	}
+	manpower=137129
+	state_category=rural
+}

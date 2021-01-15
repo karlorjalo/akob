@@ -1,0 +1,30 @@
+
+state={
+	id=129
+	name="STATE_129"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = ARB
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = ARB
+		victory_points = {
+        	    1238 1
+        	}
+		victory_points = {
+        	    1264 5
+        	}
+	}
+
+	provinces={
+		31 486 539 860 1089 1238 1264 1449 1482 1521 1715 1747 2178 2200 
+	}
+	manpower=195480
+	state_category=rural
+}

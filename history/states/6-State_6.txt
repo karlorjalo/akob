@@ -1,0 +1,30 @@
+
+state={
+	id=6
+	name="STATE_6"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = THB
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = THB
+		victory_points = {
+        	    1032 10
+        	}
+
+	}
+
+	provinces={
+		283 517 843 1007 1032 1139 1593 1616 1915 2141 
+	}
+	manpower=638616
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

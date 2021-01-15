@@ -1,0 +1,29 @@
+
+state={
+	id=25
+	name="STATE_25"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = ECH
+		buildings = {
+			infrastructure = 8
+			arms_factory = 3
+			industrial_complex = 4
+
+		}
+		add_core_of = ECH
+		victory_points = {
+        	    2009 35
+        	}
+	}
+
+	provinces={
+		186 233 266 584 972 980 1459 1628 2002 2009 
+	}
+	manpower=3350353
+	state_category=large_city
+}

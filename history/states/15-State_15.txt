@@ -1,0 +1,29 @@
+
+state={
+	id=15
+	name="STATE_15"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = OBX
+		buildings = {
+			infrastructure = 10
+			arms_factory = 1
+			industrial_complex = 4
+
+		}
+		add_core_of = OBX
+		victory_points = {
+        	    513 30
+        	}
+	}
+
+	provinces={
+		513 
+	}
+	manpower=2054357
+	state_category=city
+}

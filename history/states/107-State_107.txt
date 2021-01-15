@@ -1,0 +1,25 @@
+
+state={
+	id=107
+	name="STATE_107"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = ICR
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = ICR
+
+	}
+
+	provinces={
+		18 142 532 659 749 1395 1429 1694 2183 2194 
+	}
+	manpower=277409
+	state_category=rural
+}

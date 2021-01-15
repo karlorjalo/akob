@@ -1,0 +1,30 @@
+
+state={
+	id=156
+	name="STATE_156"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = LTV
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = LTV
+		victory_points = {
+        	    2187 10
+        	}
+		victory_points = {
+        	    731 10
+        	}
+	}
+
+	provinces={
+		107 205 361 731 1072 1296 1352 1491 1588 2186 2187 
+	}
+	manpower=1262061
+	state_category=town
+}

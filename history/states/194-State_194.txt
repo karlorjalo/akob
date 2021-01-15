@@ -1,0 +1,31 @@
+
+state={
+	id=194
+	name="STATE_194"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = ARS
+		buildings = {
+			infrastructure = 3
+
+		}
+		victory_points = {
+        	    1971 10
+        	}
+			victory_points = {
+        	    1110 5
+        	}
+		add_core_of = ARS
+
+	}
+
+	provinces={
+		26 193 458 462 650 914 970 1110 1280 1412 1422 1967 1971 2308 2319 
+	}
+	manpower=1342147
+	state_category=town
+}

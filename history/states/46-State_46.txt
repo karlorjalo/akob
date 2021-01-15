@@ -1,0 +1,25 @@
+
+state={
+	id=46
+	name="STATE_46"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = ICR
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = ICR
+
+	}
+
+	provinces={
+		256 293 940 1829 1945 2036 2041 
+	}
+	manpower=258137
+	state_category=rural
+}

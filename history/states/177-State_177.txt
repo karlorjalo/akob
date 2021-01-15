@@ -1,0 +1,25 @@
+
+state={
+	id=177
+	name="STATE_177"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = ARS
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = ARS
+
+	}
+
+	provinces={
+		21 83 359 364 487 736 973 977 1038 1151 1460 1669 1741 2260 2267 2269 2277 
+	}
+	manpower=257660
+	state_category=wasteland
+}

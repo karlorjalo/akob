@@ -1,0 +1,29 @@
+
+state={
+	id=186
+	name="STATE_186"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = EFR
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 4
+
+		}
+		add_core_of = EFR
+		victory_points = {
+        	    2281 30
+        	}
+	}
+
+	provinces={
+		111 216 481 700 1102 1425 1427 2281 2288 
+	}
+	manpower=2137324
+	state_category=large_city
+}

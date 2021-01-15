@@ -1,0 +1,5625 @@
+focus_tree = {
+	id = airestonian_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ARS
+
+		}
+
+		#modifier = {
+		#	add = 10
+		#	original_tag = AST
+		#	has_dlc = "Together for Victory"
+		#}
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 3000 }
+
+	focus = {
+		id = ARS_war_with_icrusia
+		icon = GFX_goal_generic_major_war
+		x = 30
+		y = 0
+		#relative_position_id = AST_empower_the_workers
+		#prerequisite = { focus = AST_workers_paradise }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_rally_the_troops
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = ARS_war_with_icrusia
+		prerequisite = { focus = ARS_war_with_icrusia }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+####
+
+	focus = {
+		id = ARS_protect_the_people
+		icon = GFX_goal_generic_major_war
+		x = -4
+		y = 2
+		relative_position_id = ARS_war_with_icrusia
+		prerequisite = { focus = ARS_rally_the_troops }
+		mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_prioritise_grain_for_the_cities
+		icon = GFX_goal_generic_major_war
+		x = -7
+		y = 3
+		relative_position_id = ARS_war_with_icrusia
+		prerequisite = { focus = ARS_protect_the_people }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_farmer_war_protection
+		icon = GFX_goal_generic_major_war
+		x = -7
+		y = 4
+		relative_position_id = ARS_war_with_icrusia
+		prerequisite = { focus = ARS_prioritise_grain_for_the_cities }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_increase_the_city_grain_supplies
+		icon = GFX_goal_generic_major_war
+		x = -7
+		y = 5
+		relative_position_id = ARS_war_with_icrusia
+		prerequisite = { focus = ARS_farmer_war_protection }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+#####
+
+	focus = {
+		id = ARS_increase_city_defence
+		icon = GFX_goal_generic_major_war
+		x = -4
+		y = 3
+		relative_position_id = ARS_war_with_icrusia
+		prerequisite = { focus = ARS_protect_the_people }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_forts_forts_everywhere
+		icon = GFX_goal_generic_major_war
+		x = -4
+		y = 4
+		relative_position_id = ARS_war_with_icrusia
+		prerequisite = { focus = ARS_increase_city_defence }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_protect_cleresdes_at_all_costs
+		icon = GFX_goal_generic_major_war
+		x = -5
+		y = 5
+		relative_position_id = ARS_war_with_icrusia
+		prerequisite = { focus = ARS_forts_forts_everywhere }
+		mutually_exclusive = {focus = ARS_all_men_to_airestonia_city}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_all_men_to_airestonia_city
+		icon = GFX_goal_generic_major_war
+		x = -3
+		y = 5
+		relative_position_id = ARS_war_with_icrusia
+		prerequisite = { focus = ARS_forts_forts_everywhere }
+		mutually_exclusive = {focus = ARS_protect_cleresdes_at_all_costs}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_defend_the_borders
+		icon = GFX_goal_generic_major_war
+		x = -1
+		y = 3
+		relative_position_id = ARS_war_with_icrusia
+		prerequisite = { focus = ARS_protect_the_people }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_rally_the_border_guards
+		icon = GFX_goal_generic_major_war
+		x = -1
+		y = 4
+		relative_position_id = ARS_war_with_icrusia
+		prerequisite = { focus = ARS_defend_the_borders }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_the_hellica_declaration
+		icon = GFX_goal_generic_major_war
+		x = -1
+		y = 5
+		relative_position_id = ARS_war_with_icrusia
+		prerequisite = { focus = ARS_rally_the_border_guards }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_fortress_airestonia
+		icon = GFX_goal_generic_major_war
+		x = -4
+		y = 6
+		relative_position_id = ARS_war_with_icrusia
+		prerequisite = { focus = ARS_all_men_to_airestonia_city OR = ARS_protect_cleresdes_at_all_costs }
+		prerequisite = { focus = ARS_increase_the_city_grain_supplies }
+		prerequisite = { focus = ARS_the_hellica_declaration }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+######
+
+	focus = {
+		id = ARS_pay_your_dues
+		icon = GFX_goal_generic_major_war
+		x = 4
+		y = 2
+		relative_position_id = ARS_war_with_icrusia
+		prerequisite = { focus = ARS_rally_the_troops }
+		mutually_exclusive = {focus = ARS_protect_the_people }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_increase_regional_levies
+		icon = GFX_goal_generic_major_war
+		x = 1
+		y = 3
+		relative_position_id = ARS_war_with_icrusia
+		prerequisite = { focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_from_farmers_to_soldiers
+		icon = GFX_goal_generic_major_war
+		x = 1
+		y = 4
+		relative_position_id = ARS_war_with_icrusia
+		prerequisite = { focus = ARS_increase_regional_levies }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_every_mans_war
+		icon = GFX_goal_generic_major_war
+		x = 1
+		y = 5
+		relative_position_id = ARS_war_with_icrusia
+		prerequisite = { focus = ARS_from_farmers_to_soldiers }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_tax_the_people
+		icon = GFX_goal_generic_major_war
+		x = 4
+		y = 3
+		relative_position_id = ARS_war_with_icrusia
+		prerequisite = { focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_tax_the_peasants
+		icon = GFX_goal_generic_major_war
+		x = 3
+		y = 4
+		relative_position_id = ARS_war_with_icrusia
+		prerequisite = { focus = ARS_tax_the_people }
+		mutually_exclusive = {focus = ARS_tax_the_nobles }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_tax_the_nobles
+		icon = GFX_goal_generic_major_war
+		x = 5
+		y = 4
+		relative_position_id = ARS_war_with_icrusia
+		prerequisite = { focus = ARS_tax_the_people }
+		mutually_exclusive = {focus = ARS_tax_the_peasants }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_remove_the_undesirables
+		icon = GFX_goal_generic_major_war
+		x = 4
+		y = 5
+		relative_position_id = ARS_war_with_icrusia
+		prerequisite = { focus = ARS_tax_the_peasants OR = ARS_tax_the_nobles }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_increase_grain_quotas
+		icon = GFX_goal_generic_major_war
+		x = 7
+		y = 3
+		relative_position_id = ARS_war_with_icrusia
+		prerequisite = { focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_state_controlled_agriculture
+		icon = GFX_goal_generic_major_war
+		x = 7
+		y = 4
+		relative_position_id = ARS_war_with_icrusia
+		prerequisite = { focus = ARS_increase_grain_quotas }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_state-wide_rations
+		icon = GFX_goal_generic_major_war
+		x = 7
+		y = 5
+		relative_position_id = ARS_war_with_icrusia
+		prerequisite = { focus = ARS_state_controlled_agriculture }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_the_illesas_proclamation
+		icon = GFX_goal_generic_major_war
+		x = 4
+		y = 6
+		relative_position_id = ARS_war_with_icrusia
+		prerequisite = { focus = ARS_state-wide_rations }
+		prerequisite = { focus = ARS_remove_the_undesirables }
+		prerequisite = { focus = ARS_every_mans_war }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+#####
+
+	focus = {
+		id = ARS_our_place_in_the_sun
+		icon = GFX_goal_generic_major_war
+		x = 13
+		y = 7
+		prerequisite = { focus = ARS_the_illesas_proclamation OR = ARS_fortress_airestonia }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_right_to_rule
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_our_place_in_the_sun }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_undefeated_eagle
+		icon = GFX_goal_generic_major_war
+		x = -6
+		y = 2
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_right_to_rule }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_operation_salvage_point
+		icon = GFX_goal_generic_major_war
+		x = -6
+		y = 3
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_undefeated_eagle }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_eliminate_icrusian_scientists
+		icon = GFX_goal_generic_major_war
+		x = -5
+		y = 4
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_operation_salvage_point }
+		mutually_exclusive = {focus = ARS_welcome_icrusian_scientists}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_remove_icrusian_nobles
+		icon = GFX_goal_generic_major_war
+		x = -5
+		y = 5
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_eliminate_icrusian_scientists }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_silence_the_population
+		icon = GFX_goal_generic_major_war
+		x = -5
+		y = 6
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_remove_icrusian_nobles }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_supress_the_icrusian_culture
+		icon = GFX_goal_generic_major_war
+		x = -5
+		y = 7
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_silence_the_population }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_mass_deportations
+		icon = GFX_goal_generic_major_war
+		x = -5
+		y = 8
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_supress_the_icrusian_culture }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_welcome_icrusian_scientists
+		icon = GFX_goal_generic_major_war
+		x = -7
+		y = 4
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_operation_salvage_point }
+		mutually_exclusive = {focus = ARS_eliminate_icrusian_scientists}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_invite_icrusian_nobles
+		icon = GFX_goal_generic_major_war
+		x = -7
+		y = 5
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_welcome_icrusian_scientists }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_incoporate_the_people
+		icon = GFX_goal_generic_major_war
+		x = -7
+		y = 6
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_invite_icrusian_nobles }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_a_land_of_many_cultures
+		icon = GFX_goal_generic_major_war
+		x = -7
+		y = 7
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_incoporate_the_people }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_encourage_migration
+		icon = GFX_goal_generic_major_war
+		x = -7
+		y = 8
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_a_land_of_many_cultures }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_icrusia_a_free_nation
+		icon = GFX_goal_generic_major_war
+		x = -6
+		y = 9
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_encourage_migration OR = ARS_mass_deportations }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_maintain_the_status_quo
+		icon = GFX_goal_generic_major_war
+		x = 3
+		y = 2
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_right_to_rule }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_consolidate_icrusian_lands
+		icon = GFX_goal_generic_major_war
+		x = 3
+		y = 3
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_maintain_the_status_quo}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_icrusian_crown_lands
+		icon = GFX_goal_generic_major_war
+		x = -3
+		y = 4
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_consolidate_icrusian_lands}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_the_2_kingdoms_decree
+		icon = GFX_goal_generic_major_war
+		x = -3
+		y = 5
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_icrusian_crown_lands}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_exploit_icrusian_resources
+		icon = GFX_goal_generic_major_war
+		x = -3
+		y = 6
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_the_2_kingdoms_decree}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_airestonian_labour_force
+		icon = GFX_goal_generic_major_war
+		x = -3
+		y = 7
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_the_2_kingdoms_decree}
+		prerequisite = { focus = ARS_grow_wheat_farms}
+		prerequisite = { focus = ARS_lucrative_plantations}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_icrusian_land_redistribution
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 4
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_consolidate_icrusian_lands}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_distribute_lands_to_the_peasants
+		icon = GFX_goal_generic_major_war
+		x = -1
+		y = 5
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_icrusian_land_redistribution}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_grow_wheat_farms
+		icon = GFX_goal_generic_major_war
+		x = -1
+		y = 6
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_distribute_lands_to_the_peasants}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_use_the_secondary_citizens
+		icon = GFX_goal_generic_major_war
+		x = -1
+		y = 7
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_grow_wheat_farms}
+		prerequisite = { focus = ARS_the_2_kingdoms_decree}
+		prerequisite = { focus = ARS_lucrative_plantations}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_distribute_lands_to_the_nobles
+		icon = GFX_goal_generic_major_war
+		x = 1
+		y = 5
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_icrusian_land_redistribution}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_lucrative_plantations
+		icon = GFX_goal_generic_major_war
+		x = 1
+		y = 6
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_distribute_lands_to_the_nobles}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_pay_icrusian_workers
+		icon = GFX_goal_generic_major_war
+		x = 1
+		y = 7
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_lucrative_plantations}
+		prerequisite = { focus = ARS_the_2_kingdoms_decree}
+		prerequisite = { focus = ARS_grow_wheat_farms}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_the_airestonian_media_decree
+		icon = GFX_goal_generic_major_war
+		x = -1
+		y = 8
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_use_the_secondary_citizens OR = ARS_airestonian_labour_force OR = ARS_pay_icrusian_workers}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_pax_airestonia
+		icon = GFX_goal_generic_major_war
+		x = -1
+		y = 9
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_the_airestonian_media_decree}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_establish_the_crown_colony
+		icon = GFX_goal_generic_major_war
+		x = 4
+		y = 4
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_consolidate_icrusian_lands}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_icrusian_war_debt
+		icon = GFX_goal_generic_major_war
+		x = 3
+		y = 5
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_establish_the_crown_colony}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_icrusian_labour_levies
+		icon = GFX_goal_generic_major_war
+		x = 3
+		y = 6
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_icrusian_war_debt}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_work_for_the_greater_good
+		icon = GFX_goal_generic_major_war
+		x = 3
+		y = 7
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_icrusian_labour_levies}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_bolster_the_icrusian_garrisons
+		icon = GFX_goal_generic_major_war
+		x = 5
+		y = 5
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_establish_the_crown_colony}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_equipment_for_icrusia
+		icon = GFX_goal_generic_major_war
+		x = 5
+		y = 6
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_bolster_the_icrusian_garrisons}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_icrusian_home_defence_force
+		icon = GFX_goal_generic_major_war
+		x = 5
+		y = 7
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_equipment_for_icrusia}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_invest_in_the_south
+		icon = GFX_goal_generic_major_war
+		x = 7
+		y = 5
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_establish_the_crown_colony}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_drill_for_southern_coal
+		icon = GFX_goal_generic_major_war
+		x = 7
+		y = 6
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_invest_in_the_south}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_invest_in_the_mountains
+		icon = GFX_goal_generic_major_war
+		x = 9
+		y = 5
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_establish_the_crown_colony}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_organise_the_thorton_mines
+		icon = GFX_goal_generic_major_war
+		x = 9
+		y = 6
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_invest_in_the_mountains}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_trans-icrusian_railway
+		icon = GFX_goal_generic_major_war
+		x = 8
+		y = 7
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_organise_the_thorton_mines OR = ARS_drill_for_southern_coal}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_icrusia-airestonia_road
+		icon = GFX_goal_generic_major_war
+		x = 8
+		y = 8
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_trans-icrusian_railway}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_ascension
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 10
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_icrusia-airestonia_road}
+		prerequisite = { focus = ARS_pax_airestonia}
+		prerequisite = { focus = ARS_icrusia_a_free_nation}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_the_trubian_menace
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 11
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_ascension}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_once_upon_a_time
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 11
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_ascension}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_the_theberan_question
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 11
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_ascension}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_form_the_dark_pact
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 12
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_the_trubian_menace}
+		prerequisite = { focus = ARS_once_upon_a_time}
+		prerequisite = { focus = ARS_the_theberan_question}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_enslave_the_mercenaries
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 13
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_form_the_dark_pact}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_the_plague_of_madness
+		icon = GFX_goal_generic_major_war
+		x = 14
+		y = 2
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_right_to_rule }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_paranoia
+		icon = GFX_goal_generic_major_war
+		x = 14
+		y = 3
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_the_plague_of_madness }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_the_great_purge
+		icon = GFX_goal_generic_major_war
+		x = 13
+		y = 4
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_paranoia }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_enforce_marshal_law
+		icon = GFX_goal_generic_major_war
+		x = 11
+		y = 5
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_the_great_purge }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_limit_the_peoples_rights
+		icon = GFX_goal_generic_major_war
+		x = 13
+		y = 5
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_the_great_purge }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_form_the_GOA_divisions
+		icon = GFX_goal_generic_major_war
+		x = 15
+		y = 5
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_the_great_purge }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+#####
+
+	focus = {
+		id = ARS_swallow_our_pride
+		icon = GFX_goal_generic_major_war
+		x = 31
+		y = 7
+		prerequisite = { focus = ARS_the_illesas_proclamation OR = ARS_fortress_airestonia }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_public_hangings
+		icon = GFX_goal_generic_major_war
+		x = 12
+		y = 6
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_enforce_marshal_law }
+		prerequisite = { focus = ARS_limit_the_peoples_rights }
+		prerequisite = { focus = ARS_form_the_GOA_divisions }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_penal_deportations
+		icon = GFX_goal_generic_major_war
+		x = 12
+		y = 7
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_public_hangings }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_penal_punishment
+		icon = GFX_goal_generic_major_war
+		x = 14
+		y = 6
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_enforce_marshal_law }
+		prerequisite = { focus = ARS_limit_the_peoples_rights }
+		prerequisite = { focus = ARS_form_the_GOA_divisions }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_arrest_without_trial
+		icon = GFX_goal_generic_major_war
+		x = 14
+		y = 7
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_penal_punishment }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_propaganda_and_censorship
+		icon = GFX_goal_generic_major_war
+		x = 17
+		y = 4
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_paranoia }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_circus_airestonia_initiative
+		icon = GFX_goal_generic_major_war
+		x = 17
+		y = 5
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_propaganda_and_censorship }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_reeducation_camps
+		icon = GFX_goal_generic_major_war
+		x = 17
+		y = 6
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_circus_airestonia_initiative }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_airestonian_cultural_rebirth
+		icon = GFX_goal_generic_major_war
+		x = 17
+		y = 7
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_reeducation_camps }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_a_city_of_angels
+		icon = GFX_goal_generic_major_war
+		x = 14
+		y = 8
+		relative_position_id = ARS_our_place_in_the_sun
+		prerequisite = { focus = ARS_airestonian_cultural_rebirth }
+		prerequisite = { focus = ARS_penal_deportations OR = ARS_arrest_without_trial }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+#####
+
+	focus = {
+		id = ARS_swallow_our_pride
+		icon = GFX_goal_generic_major_war
+		x = 43
+		y = 7
+		prerequisite = { focus = ARS_the_illesas_proclamation OR = ARS_fortress_airestonia }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_lessons_of_war
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		prerequisite = { focus = ARS_swallow_our_pride }
+		relative_position_id = ARS_swallow_our_pride
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_reform_the_general_staff
+		icon = GFX_goal_generic_major_war
+		x = -6
+		y = 1
+		prerequisite = { focus = ARS_lessons_of_war }
+		relative_position_id = ARS_lessons_of_war
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_reform_the_general_staff
+		icon = GFX_goal_generic_major_war
+		x = -6
+		y = 2
+		prerequisite = { focus = ARS_lessons_of_war }
+		relative_position_id = ARS_swallow_our_pride
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_form_the_elite_guard
+		icon = GFX_goal_generic_major_war
+		x = -8
+		y = 3
+		prerequisite = { focus = ARS_reform_the_general_staff }
+		relative_position_id = ARS_swallow_our_pride
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_reform_the_army
+		icon = GFX_goal_generic_major_war
+		x = -6
+		y = 3
+		prerequisite = { focus = ARS_reform_the_general_staff }
+		relative_position_id = ARS_swallow_our_pride
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_form_the_council_for_defence
+		icon = GFX_goal_generic_major_war
+		x = -4
+		y = 3
+		prerequisite = { focus = ARS_reform_the_general_staff }
+		relative_position_id = ARS_swallow_our_pride
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_assess_the_situation
+		icon = GFX_goal_generic_major_war
+		x = -6
+		y = 4
+		prerequisite = { focus = ARS_reform_the_army OR = ARS_form_the_elite_guard OR = ARS_form_the_council_for_defence}
+		relative_position_id = ARS_swallow_our_pride
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_the_trubian_question
+		icon = GFX_goal_generic_major_war
+		x = -1
+		y = 1
+		prerequisite = { focus = ARS_assess_the_situation}
+		relative_position_id = ARS_assess_the_situation
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_the_trubian_question
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 1
+		prerequisite = { focus = ARS_assess_the_situation}
+		relative_position_id = ARS_assess_the_situation
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_support_efror
+		icon = GFX_goal_generic_major_war
+		x = -1
+		y = 1
+		prerequisite = { focus = ARS_the_trubian_question}
+		relative_position_id = ARS_the_trubian_question
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_join_the_ATL
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 2
+		prerequisite = { focus = ARS_support_efror}
+		relative_position_id = ARS_the_trubian_question
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_on_our_own
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 2
+		prerequisite = { focus = ARS_support_efror}
+		relative_position_id = ARS_the_trubian_question
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_support_trubia
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 1
+		prerequisite = { focus = ARS_the_trubian_question}
+		relative_position_id = ARS_the_trubian_question
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_form_the_cearamonte_pact
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 2
+		prerequisite = { focus = ARS_the_trubian_question}
+		relative_position_id = ARS_the_trubian_question
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_the_northern_backwater
+		icon = GFX_goal_generic_major_war
+		x = 3
+		y = 1
+		prerequisite = { focus = ARS_assess_the_situation}
+		relative_position_id = ARS_assess_the_situation
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_support_agran_independence
+		icon = GFX_goal_generic_major_war
+		x = -1
+		y = 1
+		prerequisite = { focus = ARS_the_northern_backwater}
+		relative_position_id = ARS_the_northern_backwater
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_support_theberian_independence
+		icon = GFX_goal_generic_major_war
+		x = 1
+		y = 1
+		prerequisite = { focus = ARS_the_northern_backwater}
+		relative_position_id = ARS_the_northern_backwater
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_the_alorith_conference
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 2
+		prerequisite = { focus = ARS_support_agran_independence}
+		prerequisite = { focus = ARS_support_theberian_independence}
+		relative_position_id = ARS_the_northern_backwater
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_final_preparations
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 3
+		prerequisite = { focus = ARS_the_alorith_conference}
+		prerequisite = { focus = ARS_form_the_cearamonte_pact OR = ARS_on_our_own OR = ARS_join_the_ATL }
+		relative_position_id = ARS_the_trubian_question
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_once_more_into_the_breach
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 4
+		prerequisite = { focus = ARS_final_preparations}
+		relative_position_id = ARS_the_trubian_question
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_industrialise_or_die_without
+		icon = GFX_goal_generic_major_war
+		x = 6
+		y = 2
+		prerequisite = { focus = ARS_lessons_of_war }
+		relative_position_id = ARS_swallow_our_pride
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_give_farmers_more_autonomy
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		prerequisite = { focus = ARS_industrialise_or_die_without }
+		relative_position_id = ARS_industrialise_or_die_without
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_abolish_the_feudal_system
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 2
+		prerequisite = { focus = ARS_give_farmers_more_autonomy }
+		relative_position_id = ARS_industrialise_or_die_without
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_modify_the_feudal_system
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 2
+		prerequisite = { focus = ARS_give_farmers_more_autonomy }
+		relative_position_id = ARS_industrialise_or_die_without
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_keep_the_feudal_system
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 2
+		prerequisite = { focus = ARS_give_farmers_more_autonomy }
+		relative_position_id = ARS_industrialise_or_die_without
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_off_with_their_heads
+		icon = GFX_goal_generic_major_war
+		x = -3
+		y = 3
+		prerequisite = { focus = ARS_abolish_the_feudal_system }
+		relative_position_id = ARS_industrialise_or_die_without
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_unionise_the_workers
+		icon = GFX_goal_generic_major_war
+		x = -4
+		y = 4
+		prerequisite = { focus = ARS_off_with_their_heads }
+		relative_position_id = ARS_industrialise_or_die_without
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_worker_rights
+		icon = GFX_goal_generic_major_war
+		x = -5
+		y = 5
+		prerequisite = { focus = ARS_unionise_the_workers }
+		relative_position_id = ARS_industrialise_or_die_without
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_break_up_the_nobles_lands
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 4
+		prerequisite = { focus = ARS_off_with_their_heads }
+		relative_position_id = ARS_industrialise_or_die_without
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_farmers_to_workers_programme
+		icon = GFX_goal_generic_major_war
+		x = -3
+		y = 5
+		prerequisite = { focus = ARS_break_up_the_nobles_lands }
+		relative_position_id = ARS_industrialise_or_die_without
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_workers_revolution
+		icon = GFX_goal_generic_major_war
+		x = -4
+		y = 6
+		prerequisite = { focus = ARS_farmers_to_workers_programme }
+		prerequisite = { focus = ARS_worker_rights }
+		relative_position_id = ARS_industrialise_or_die_without
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_let_the_farmers_have_a_say
+		icon = GFX_goal_generic_major_war
+		x = -1
+		y = 3
+		prerequisite = { focus = ARS_abolish_the_feudal_system OR = ARS_modify_the_feudal_system }
+		relative_position_id = ARS_industrialise_or_die_without
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_please_the_nobles
+		icon = GFX_goal_generic_major_war
+		x = 1
+		y = 3
+		prerequisite = { focus = ARS_keep_the_feudal_system OR = ARS_modify_the_feudal_system }
+		relative_position_id = ARS_industrialise_or_die_without
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_the_cysos_compromise
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 4
+		prerequisite = { focus = ARS_let_the_farmers_have_a_say }
+		prerequisite = { focus = ARS_please_the_nobles }
+		relative_position_id = ARS_industrialise_or_die_without
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_farmer_and_worker_quotas
+		icon = GFX_goal_generic_major_war
+		x = -1
+		y = 5
+		prerequisite = { focus = ARS_the_cysos_compromise }
+		relative_position_id = ARS_industrialise_or_die_without
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_fiefdom_reduction
+		icon = GFX_goal_generic_major_war
+		x = 1
+		y = 5
+		prerequisite = { focus = ARS_the_cysos_compromise }
+		relative_position_id = ARS_industrialise_or_die_without
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_different_classes_one_people
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 6
+		prerequisite = { focus = ARS_fiefdom_reduction }
+		prerequisite = { focus = ARS_farmer_and_worker_quotas }
+		relative_position_id = ARS_industrialise_or_die_without
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_supreme_authority_of_the_crown
+		icon = GFX_goal_generic_major_war
+		x = 3
+		y = 3
+		prerequisite = { focus = ARS_keep_the_feudal_system}
+		relative_position_id = ARS_industrialise_or_die_without
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_intelligentsia_grant
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 4
+		prerequisite = { focus = ARS_supreme_authority_of_the_crown }
+		relative_position_id = ARS_industrialise_or_die_without
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_accomodate_the_nobles
+		icon = GFX_goal_generic_major_war
+		x = 3
+		y = 5
+		prerequisite = { focus = ARS_intelligentsia_grant }
+		relative_position_id = ARS_industrialise_or_die_without
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_feudal_industralization
+		icon = GFX_goal_generic_major_war
+		x = 4
+		y = 4
+		prerequisite = { focus = ARS_supreme_authority_of_the_crown }
+		relative_position_id = ARS_industrialise_or_die_without
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_peasant_plantations
+		icon = GFX_goal_generic_major_war
+		x = 5
+		y = 5
+		prerequisite = { focus = ARS_feudal_industralization }
+		relative_position_id = ARS_industrialise_or_die_without
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_maintain_the_order
+		icon = GFX_goal_generic_major_war
+		x = 4
+		y = 6
+		prerequisite = { focus = ARS_accomodate_the_nobles }
+		prerequisite = { focus = ARS_peasant_plantations }
+		relative_position_id = ARS_industrialise_or_die_without
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_reform_the_airestonian_military
+		icon = GFX_goal_generic_major_war
+		x = 71
+		y = 0
+		#relative_position_id = AST_empower_the_workers
+		#prerequisite = { focus = AST_workers_paradise }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_standardise_rifle_designs
+		icon = GFX_goal_generic_major_war
+		x = -1
+		y = 1
+		relative_position_id = ARS_reform_the_airestonian_military
+		prerequisite = { focus = ARS_reform_the_airestonian_military }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_reform_the_chief_of_staffs
+		icon = GFX_goal_generic_major_war
+		x = -1
+		y = 2
+		relative_position_id = ARS_reform_the_airestonian_military
+		prerequisite = { focus = ARS_standardise_rifle_designs }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_standardise_cavalry_formations
+		icon = GFX_goal_generic_major_war
+		x = 1
+		y = 1
+		relative_position_id = ARS_reform_the_airestonian_military
+		prerequisite = { focus = ARS_reform_the_airestonian_military }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_reform_the_military_doctrines
+		icon = GFX_goal_generic_major_war
+		x = 1
+		y = 2
+		relative_position_id = ARS_reform_the_airestonian_military
+		prerequisite = { focus = ARS_standardise_cavalry_formations }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_improved_support_weapon_designs
+		icon = GFX_goal_generic_major_war
+		x = -3
+		y = 3
+		relative_position_id = ARS_reform_the_airestonian_military
+		prerequisite = { focus = ARS_reform_the_chief_of_staffs }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_improved_artillery_support
+		icon = GFX_goal_generic_major_war
+		x = -4
+		y = 4
+		relative_position_id = ARS_reform_the_airestonian_military
+		prerequisite = { focus = ARS_improved_support_weapon_designs }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_improved_artillery_designs
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 4
+		relative_position_id = ARS_reform_the_airestonian_military
+		prerequisite = { focus = ARS_improved_support_weapon_designs }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_advanced_artillery_effort
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 5
+		relative_position_id = ARS_reform_the_airestonian_military
+		prerequisite = { focus = ARS_improved_artillery_designs }
+		prerequisite = { focus = ARS_improved_artillery_support }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_fire_and_brimstone
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 6
+		relative_position_id = ARS_reform_the_airestonian_military
+		prerequisite = { focus = ARS_advanced_artillery_effort }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_improved_lancer_divisions
+		icon = GFX_goal_generic_major_war
+		x = 4
+		y = 3
+		relative_position_id = ARS_reform_the_airestonian_military
+		prerequisite = { focus = ARS_reform_the_military_doctrines }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_improved_cuirassier_training
+		icon = GFX_goal_generic_major_war
+		x = 4
+		y = 4
+		relative_position_id = ARS_reform_the_airestonian_military
+		prerequisite = { focus = ARS_improved_lancer_divisions }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_improved_mage_companies
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 3
+		relative_position_id = ARS_reform_the_airestonian_military
+		prerequisite = { focus = ARS_reform_the_military_doctrines }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_advanced_mage_companies
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 4
+		relative_position_id = ARS_reform_the_airestonian_military
+		prerequisite = { focus = ARS_improved_mage_companies }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_increase_mage_school_funding
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 5
+		relative_position_id = ARS_reform_the_airestonian_military
+		prerequisite = { focus = ARS_advanced_mage_companies }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_a_magic_revolution
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 6
+		relative_position_id = ARS_reform_the_airestonian_military
+		prerequisite = { focus = ARS_increase_mage_school_funding }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_improved_rifle_designs
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 3
+		relative_position_id = ARS_reform_the_airestonian_military
+		prerequisite = { focus = ARS_reform_the_chief_of_staffs }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_advanced_rifle_designs
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 4
+		relative_position_id = ARS_reform_the_airestonian_military
+		prerequisite = { focus = ARS_improved_rifle_designs }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_the_art_of_war
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 5
+		relative_position_id = ARS_reform_the_airestonian_military
+		prerequisite = { focus = ARS_advanced_rifle_designs }
+		prerequisite = { focus = ARS_improved_cuirassier_training }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_a_professional_army
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 6
+		relative_position_id = ARS_reform_the_airestonian_military
+		prerequisite = { focus = ARS_the_art_of_war }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_revise_the_economic_policy
+		icon = GFX_goal_generic_major_war
+		x = 60
+		y = 0
+		#relative_position_id = AST_empower_the_workers
+		#prerequisite = { focus = AST_workers_paradise }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_mentenobo_mines
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 1
+		relative_position_id = ARS_revise_the_economic_policy
+		prerequisite = { focus = ARS_revise_the_economic_policy }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_focus_on_coal_mines
+		icon = GFX_goal_generic_major_war
+		x = -3
+		y = 2
+		relative_position_id = ARS_revise_the_economic_policy
+		prerequisite = { focus = ARS_mentenobo_mines }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_focus_on_steel_mines
+		icon = GFX_goal_generic_major_war
+		x = -1
+		y = 2
+		relative_position_id = ARS_revise_the_economic_policy
+		prerequisite = { focus = ARS_mentenobo_mines }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_trans-airestonia_roads
+		icon = GFX_goal_generic_major_war
+		x = -1
+		y = 3
+		relative_position_id = ARS_revise_the_economic_policy
+		prerequisite = { focus = ARS_focus_on_steel_mines }
+		prerequisite = { focus = ARS_focus_on_coal_mines }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_airestonia_industry_centre
+		icon = GFX_goal_generic_major_war
+		x = -1
+		y = 4
+		relative_position_id = ARS_revise_the_economic_policy
+		prerequisite = { focus = ARS_coast_to_coast_roads }
+		prerequisite = { focus = ARS_trans-airestonia_roads }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_tronodia_gunworks
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 5
+		relative_position_id = ARS_revise_the_economic_policy
+		prerequisite = { focus = ARS_airestonia_industry_centre OR = ARS_cearamonte_military_complex }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_mjuwda_gunworks
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 5
+		relative_position_id = ARS_revise_the_economic_policy
+		prerequisite = { focus = ARS_airestonia_industry_centre OR = ARS_cearamonte_military_complex }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_coast_to_coast_roads
+		icon = GFX_goal_generic_major_war
+		x = 1
+		y = 3
+		relative_position_id = ARS_revise_the_economic_policy
+		prerequisite = { focus = ARS_organise_the_thasaca_mining_group }
+		prerequisite = { focus = ARS_northern_coal_discovery }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_cearamonte_military_complex
+		icon = GFX_goal_generic_major_war
+		x = 1
+		y = 4
+		relative_position_id = ARS_revise_the_economic_policy
+		prerequisite = { focus = ARS_coast_to_coast_roads }
+		prerequisite = { focus = ARS_trans-airestonia_roads }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_organise_the_thasaca_mining_group
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = ARS_revise_the_economic_policy
+		prerequisite = { focus = ARS_revise_the_economic_policy }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_northern_coal_discovery
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 1
+		relative_position_id = ARS_revise_the_economic_policy
+		prerequisite = { focus = ARS_revise_the_economic_policy }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_fund_the_rivevia_university
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 6
+		relative_position_id = ARS_revise_the_economic_policy
+		prerequisite = { focus = ARS_tronodia_gunworks OR = ARS_mjuwda_gunworks }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_develop_the_north
+		icon = GFX_goal_generic_major_war
+		x = -3
+		y = 7
+		relative_position_id = ARS_revise_the_economic_policy
+		prerequisite = { focus = ARS_fund_the_rivevia_university }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_industrialise_coures
+		icon = GFX_goal_generic_major_war
+		x = -4
+		y = 8
+		relative_position_id = ARS_revise_the_economic_policy
+		prerequisite = { focus = ARS_develop_the_north }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_airestonia_city_roads
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 8
+		relative_position_id = ARS_revise_the_economic_policy
+		prerequisite = { focus = ARS_develop_the_north }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_airestonia_city_industry
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 9
+		relative_position_id = ARS_revise_the_economic_policy
+		prerequisite = { focus = ARS_airestonia_city_roads }
+		prerequisite = { focus = ARS_industrialise_coures }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_cysos_canals
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 8
+		relative_position_id = ARS_revise_the_economic_policy
+		prerequisite = { focus = ARS_develop_the_north OR = ARS_develop_the_south }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_develop_the_south
+		icon = GFX_goal_generic_major_war
+		x = 3
+		y = 7
+		relative_position_id = ARS_revise_the_economic_policy
+		prerequisite = { focus = ARS_fund_the_rivevia_university }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_industrialise_khoknard
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 8
+		relative_position_id = ARS_revise_the_economic_policy
+		prerequisite = { focus = ARS_develop_the_south }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_gentontodl-mouzonces_roads
+		icon = GFX_goal_generic_major_war
+		x = 4
+		y = 8
+		relative_position_id = ARS_revise_the_economic_policy
+		prerequisite = { focus = ARS_develop_the_south }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_illesas_industry
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 9
+		relative_position_id = ARS_revise_the_economic_policy
+		prerequisite = { focus = ARS_industrialise_khoknard }
+		prerequisite = { focus = ARS_gentontodl-mouzonces_roads }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_great_economic_revival
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 10
+		relative_position_id = ARS_revise_the_economic_policy
+		prerequisite = { focus = ARS_illesas_industry }
+		prerequisite = { focus = ARS_airestonia_city_industry }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_found_the_airestonian_navy
+		icon = GFX_goal_generic_major_war
+		x = 79
+		y = 0
+		#relative_position_id = AST_empower_the_workers
+		#prerequisite = { focus = AST_workers_paradise }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_expand_the_fleet
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = ARS_found_the_airestonian_navy
+		prerequisite = { focus = ARS_found_the_airestonian_navy }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_a_high_seas_fleet
+		icon = GFX_goal_generic_major_war
+		x = -1
+		y = 2
+		relative_position_id = ARS_found_the_airestonian_navy
+		prerequisite = { focus = ARS_expand_the_fleet }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_major_hellica_dockyards_expansion
+		icon = GFX_goal_generic_major_war
+		x = -1
+		y = 3
+		relative_position_id = ARS_found_the_airestonian_navy
+		prerequisite = { focus = ARS_a_high_seas_fleet }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_a_patrol_fleet
+		icon = GFX_goal_generic_major_war
+		x = 1
+		y = 2
+		relative_position_id = ARS_found_the_airestonian_navy
+		prerequisite = { focus = ARS_expand_the_fleet }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_sovinovorio_naval_research_centre
+		icon = GFX_goal_generic_major_war
+		x = 1
+		y = 3
+		relative_position_id = ARS_found_the_airestonian_navy
+		prerequisite = { focus = ARS_a_patrol_fleet }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ARS_the_grand_airestonian_fleet
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 4
+		relative_position_id = ARS_found_the_airestonian_navy
+		prerequisite = { focus = ARS_major_hellica_dockyards_expansion OR = ARS_sovinovorio_naval_research_centre }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+}		

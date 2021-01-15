@@ -1,0 +1,31 @@
+
+state={
+	id=87
+	name="STATE_87"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = ARS
+		buildings = {
+			infrastructure = 4
+
+		}
+		victory_points = {
+        	    535 10
+        	}
+		victory_points = {
+        	    2120 10
+        	}
+		add_core_of = ARS
+
+	}
+
+	provinces={
+		19 285 313 503 507 535 748 905 1221 1420 1437 1690 1870 1966 2114 2120 
+	}
+	manpower=2562012
+	state_category=town
+}

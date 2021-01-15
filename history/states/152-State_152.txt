@@ -1,0 +1,32 @@
+
+state={
+	id=152
+	name="STATE_152"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = ARB
+		buildings = {
+			infrastructure = 8
+			arms_factory = 5
+			industrial_complex = 6
+
+		}
+		add_core_of = ARB
+		victory_points = {
+        	    284 100
+        	}
+		victory_points = {
+        	    1218 75
+        	}
+	}
+
+	provinces={
+		275 284 312 363 367 566 1218 1519 1784 1798 1910 2227 
+	}
+	manpower=25352918
+	state_category=megalopolis
+}

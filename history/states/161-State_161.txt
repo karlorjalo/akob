@@ -1,0 +1,25 @@
+
+state={
+	id=161
+	name="STATE_161"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = ARB
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = ARB
+
+	}
+
+	provinces={
+		156 468 631 737 798 866 951 2243 2255 2256 2257 2263 
+	}
+	manpower=159054
+	state_category=rural
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=18
+	name="STATE_18"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = ECH
+		buildings = {
+			infrastructure = 8
+			arms_factory = 2
+			industrial_complex = 3
+
+		}
+		add_core_of = ECH
+		victory_points = {
+        	    1632 10
+        	}
+		victory_points = {
+        	    1704 10
+        	}
+	}
+
+	provinces={
+		15 557 625 660 745 870 1094 1173 1236 1333 1632 1704 1840 1850 1993 
+	}
+	manpower=1143244
+	state_category=city
+}

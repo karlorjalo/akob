@@ -1,0 +1,39 @@
+
+state={
+	id=20
+	name="STATE_20"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = AGR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		victory_points = {
+            1213 15
+        }
+		victory_points = {
+            605 5
+        }
+		victory_points = {
+			2005 10
+		}
+		victory_points = {
+			549 15
+		}
+		add_core_of = AGR
+
+	}
+
+	provinces={
+		57 157 549 605 711 1112 1118 1129 1169 1213 1382 1501 1689 1914 2005 2008 2017 
+	}
+	manpower=2201141
+	buildings_max_level_factor=1.000
+	state_category=city
+}

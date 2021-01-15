@@ -1,0 +1,35 @@
+
+state={
+	id=154
+	name="STATE_154"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = ARB
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = ARB
+		victory_points = {
+        	    530 10
+        	}
+		victory_points = {
+        	    316 10
+        	}
+		victory_points = {
+        	    1096 40
+        	}
+	}
+
+	provinces={
+		151 316 530 534 624 987 1096 1462 1695 1794 1958 2231 
+	}
+	manpower=9858853
+	state_category=town
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=146
+	name="STATE_146"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = ICR
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = ICR
+
+	}
+
+	provinces={
+		46 81 84 277 424 701 769 1219 1431 1513 1620 2202 
+	}
+	manpower=153982
+	state_category=wasteland
+}

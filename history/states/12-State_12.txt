@@ -1,0 +1,25 @@
+
+state={
+	id=12
+	name="STATE_12"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = ECH
+		buildings = {
+			infrastructure = 7
+
+		}
+		add_core_of = ECH
+
+	}
+
+	provinces={
+		242 847 1251 1605 1769 1814 1983 
+	}
+	manpower=143619
+	state_category=rural
+}

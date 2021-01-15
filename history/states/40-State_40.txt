@@ -1,0 +1,27 @@
+
+state={
+	id=40
+	name="STATE_40"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = ECH
+		buildings = {
+			infrastructure = 7
+
+		}
+		add_core_of = ECH
+		victory_points = {
+        	    152 10
+        	}
+	}
+
+	provinces={
+		25 152 204 432 734 806 1656 1831 2024 2030 
+	}
+	manpower=866229
+	state_category=town
+}

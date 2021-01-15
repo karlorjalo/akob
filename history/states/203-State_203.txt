@@ -1,0 +1,32 @@
+
+state={
+	id=203
+	name="STATE_203"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = TRB
+		buildings = {
+			infrastructure = 5
+			arms_factory = 3
+			industrial_complex = 3
+
+		}
+		add_core_of = TRB
+		victory_points = {
+        	    794 10
+        	}
+		victory_points = {
+        	    1024 15
+        	}
+	}
+
+	provinces={
+		718 794 1024 1245 1381 1750 1760 1788 1830 
+	}
+	manpower=1788919
+	state_category=city
+}

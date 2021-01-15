@@ -1,0 +1,23 @@
+state={
+	id=39
+	name="STATE_39"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = ECH
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = ECH
+
+	}
+	state_category=rural
+	provinces={
+		115 803 1322 1337 1432 1667 1717 2019 2029 
+	}
+	manpower=186212
+}

@@ -1,0 +1,27 @@
+
+state={
+	id=30
+	name="STATE_30"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = GOZ
+		buildings = {
+			infrastructure = 7
+
+		}
+		add_core_of = GOZ
+		victory_points = {
+        	    1369 10
+        	}
+	}
+
+	provinces={
+		95 252 393 607 805 853 909 1369 1731 1866 1896 1948 2104 
+	}
+	manpower=1066309
+	state_category=town
+}

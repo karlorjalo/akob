@@ -1,0 +1,27 @@
+
+state={
+	id=1
+	name="STATE_1"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = THB
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = THB
+
+	}
+
+	provinces={
+		324 478 678 785 1372 1388 1660 2161 2170 
+	}
+	manpower=367798
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

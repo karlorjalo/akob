@@ -1,0 +1,24 @@
+state={
+	id=3
+	name="STATE_3"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = ILD
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = ILD
+
+	}
+	state_category=tiny_island
+	provinces={
+		657 1786 
+	}
+	manpower=141488
+	buildings_max_level_factor=1.000
+}

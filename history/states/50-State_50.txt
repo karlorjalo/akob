@@ -1,0 +1,30 @@
+
+state={
+	id=50
+	name="STATE_50"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = ECH
+		buildings = {
+			infrastructure = 10
+			arms_factory = 9
+			industrial_complex = 9
+
+		}
+		add_core_of = ECH
+		victory_points = {
+        	    498 100
+        	}
+	}
+
+	provinces={
+		119 298 498 686 1014 1354 1707 2031 2062 
+	}
+	manpower=9497745
+	buildings_max_level_factor=6.000
+	state_category=omegacity
+}

@@ -1,0 +1,8 @@
+state_categories={
+	supercity = {
+		local_building_slots = 25
+	
+			color = { 150 240 240 }
+
+	}
+}

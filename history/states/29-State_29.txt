@@ -1,0 +1,37 @@
+
+state={
+	id=29
+	name="STATE_29"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = GOZ
+		buildings = {
+			infrastructure = 8
+			arms_factory = 2
+			industrial_complex = 15
+			dockyard = 1
+
+		}
+		add_core_of = GOZ
+		victory_points = {
+        	    655 50
+        	}
+		victory_points = {
+        	    916 10
+        	}
+		victory_points = {
+        	    969 10
+        	}
+	}
+
+	provinces={
+		38 59 126 602 655 799 916 969 1051 1197 1344 1688 1693 1960 2028 2066 
+	}
+	manpower=10772525
+	buildings_max_level_factor=6.000
+	state_category=supercity
+}

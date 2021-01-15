@@ -1,0 +1,36 @@
+state={
+	id=175
+	name="STATE_175"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = ARS
+		buildings = {
+			infrastructure = 7
+			arms_factory = 4
+			industrial_complex = 4
+
+		}
+		add_core_of = ARS
+		victory_points = {
+        	    1876 10
+        	}
+		victory_points = {
+        	    303 10
+        	}
+		victory_points = {
+        	    1796 10
+        	}
+		victory_points = {
+        	    451 50
+        	}
+	}
+	state_category=metropolis
+	provinces={
+		137 303 451 466 570 960 997 1029 1665 1734 1796 1876 1887 2253 
+	}
+	manpower=3789855
+}

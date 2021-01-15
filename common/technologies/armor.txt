@@ -1,0 +1,673 @@
+technologies = {
+	### GERMAN TANK NAMES IN COMMENTS SO YOU CAN FIND STUFF MORE EASILY
+	basic_magic = { #Leichttraktor
+
+		enable_equipments = {
+			basic_magic
+		}
+		enable_subunits = {
+			light_armor
+		}
+
+		on_research_complete = {
+			limit = {
+				NOT = {	has_template_containing_unit = light_armor }
+				NOT = {	has_template_containing_unit = heavy_armor }
+				NOT = {	has_template_containing_unit = medium_armor }
+			}
+			hidden_effect = {
+				if = {
+					limit = {
+						has_tech = motorised_infantry
+					}
+
+					load_oob = "unlock_tanks_mot"
+				}
+				if = {
+					limit = {
+						NOT = { has_tech = motorised_infantry }
+					}
+
+					load_oob = "unlock_tanks"
+				}
+			}
+
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+		}
+	
+		path = {
+			leads_to_tech = sorcerer
+			research_cost_coeff = 1
+		}
+	
+		path = {
+			leads_to_tech = conjurer
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1918
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1939.1.1"
+			}
+		}
+		
+		categories = {
+			armor
+			cat_light_armor
+		}
+	}	
+
+	sorcerer = { #Panzer I
+
+		enable_equipments = {
+			sorcerer 
+		}
+		enable_subunits = {
+			light_armor
+		}
+
+		on_research_complete = {
+			limit = {
+				NOT = {	has_template_containing_unit = light_armor }
+				NOT = {	has_template_containing_unit = heavy_armor }
+				NOT = {	has_template_containing_unit = medium_armor }
+			}
+			hidden_effect = {
+				if = {
+					limit = {
+						has_tech = motorised_infantry
+					}
+
+					load_oob = "unlock_tanks_mot"
+				}
+				if = {
+					limit = {
+						NOT = { has_tech = motorised_infantry }
+					}
+
+					load_oob = "unlock_tanks"
+				}
+			}
+
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+		}
+		
+		path = {
+			leads_to_tech = sorcery1
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1934
+		folder = {
+			name = armour_folder
+			position = { x = -4 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1939.1.1"
+			}
+		}
+		
+		categories = {
+			armor
+			cat_light_armor
+		}
+	}	
+	
+	sorcery1 = { #Panzer II
+
+		enable_equipments = {
+			sorcery1 
+		}
+		
+		path = {
+			leads_to_tech = sorcery2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1936
+		
+		folder = {
+			name = armour_folder
+			position = { x = -4 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+				not = {
+					tag = JAP
+					num_of_military_factories < 50
+				}
+			}
+			modifier = {
+				is_major = yes
+				not = { tag = JAP }
+				has_war = yes
+				factor = 10 #you are embarassing yourself
+			}
+			modifier = {
+				tag = SOV
+				factor = 3
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1939.1.1"
+			}
+		}
+		
+		categories = {
+			armor
+			cat_light_armor
+		}
+	}
+	
+	conjuring4 = { #Leopard
+
+		enable_equipments = {
+			conjuring4 
+		}	
+		
+		research_cost = 2
+		start_year = 1941
+		
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 0.5
+			modifier = {
+				is_major = no
+				factor = 2
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1942.1.1"
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1943.1.1"
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1944.1.1"
+			}
+		}
+		
+		categories = {
+			armor
+			cat_light_armor
+		}
+	}
+		
+	sorcery2 = { #Panzer III
+
+		enable_equipments = {
+			sorcery2 
+		}
+
+		enable_subunits = {
+			medium_armor
+		}
+		
+		path = {
+			leads_to_tech = sorcery3 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1939
+
+		folder = {
+			name = armour_folder
+			position = { x = -4 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+				not = {
+					tag = JAP
+					num_of_military_factories < 50
+				}
+				date > "1938.1.1"
+			}
+			modifier = {
+				tag = SOV
+				factor = 1.5
+			}
+			modifier = {
+				factor = 1.1
+				date > "1940.1.1"
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1941.1.1"
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1942.1.1"
+			}
+			
+			modifier = {
+				factor = 15.0
+				tag = GER
+				has_opinion_modifier = sov_ger_treaty
+			}
+		}
+		
+		categories = {
+			armor
+			cat_medium_armor
+		}
+	}
+	
+	sorcery3 = { #Panzer IV
+
+		enable_equipments = {
+			sorcery3 
+		}
+		
+		path = {
+			leads_to_tech = sorcery4 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1941
+		
+		folder = {
+			name = armour_folder
+			position = { x = -4 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 3
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+				not = {
+					tag = JAP
+					num_of_military_factories < 50
+				}
+			}
+			modifier = {
+				date < "1941.1.1"
+				factor = 0.3
+			}
+			modifier = {
+				factor = 2
+				tag = GER
+			}
+			
+			modifier = {
+				factor = 2
+				tag = SOV
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1942.1.1"
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1943.1.1"
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1944.1.1"
+			}
+		}
+		
+		categories = {
+			armor
+			cat_medium_armor
+		}
+	}
+
+	sorcery4 = { #Panther
+
+		enable_equipments = {
+			sorcery4 
+		}
+		
+		research_cost = 2
+		start_year = 1943
+		
+		folder = {
+			name = armour_folder
+			position = { x = -4 y = 10 }
+		}		
+
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.2
+				date > "1944.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1945.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1946.1.1"
+			}
+		}
+		
+		categories = {
+			armor
+			cat_medium_armor
+		}
+	}
+
+	conjuring3 = { #E-50
+
+		enable_equipments = {
+			conjuring3
+		}	
+		enable_subunits = {
+			modern_armor
+		}
+		path = {
+			leads_to_tech = conjuring4
+			research_cost_coeff = 1
+		}
+		research_cost = 2.5
+		start_year = 1945
+		
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				date > "1946.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1947.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1948.1.1"
+			}
+		}
+		
+		categories = {
+			armor
+			cat_medium_armor
+		}
+	}
+	
+	conjurer = { #Grosstraktor
+
+		enable_equipments = {
+			conjurer 
+		}
+
+		enable_subunits = {
+			heavy_armor
+		}
+
+		on_research_complete = {
+			limit = {
+				NOT = {	has_template_containing_unit = light_armor }
+				NOT = {	has_template_containing_unit = heavy_armor }
+				NOT = {	has_template_containing_unit = medium_armor }
+			}
+			hidden_effect = {
+				if = {
+					limit = {
+						has_tech = motorised_infantry
+					}
+
+					load_oob = "unlock_tanks_mot"
+				}
+				if = {
+					limit = {
+						NOT = { has_tech = motorised_infantry }
+					}
+
+					load_oob = "unlock_tanks"
+				}
+			}
+
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+		}
+		
+		path = {
+			leads_to_tech = conjuring1
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1934
+		
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 0.8
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1939.1.1"
+			}
+			modifier = {
+				tag = FRA
+				factor = 3
+			}
+			modifier = {
+				tag = JAP
+				num_of_military_factories < 100
+				factor = 0
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					can_research = improved_heavy_tank
+					has_tech = improved_heavy_tank
+				}
+			}
+		}
+		
+		categories = {
+			armor
+			cat_heavy_armor
+		}
+	}
+	
+	conjuring1 = { #Tiger
+
+		enable_equipments = {
+			conjuring1 
+		}
+		
+		path = {
+			leads_to_tech = conjuring2 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2.5
+		start_year = 1941
+		
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 0.8
+			modifier = {
+				tag = JAP
+				num_of_military_factories < 100
+				factor = 0
+			}
+			modifier = {
+				factor = 1.2
+				date > "1942.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1943.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1944.1.1"
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					can_research = advanced_heavy_tank
+					has_tech = advanced_heavy_tank
+				}
+			}
+		}
+		
+		categories = {
+			armor
+			cat_heavy_armor
+		}
+	}
+	
+	conjuring2 = { #King Tiger
+
+		enable_equipments = {
+			conjuring2 
+		}
+		
+		path = {
+			leads_to_tech = conjuring3 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2.5
+		start_year = 1943
+		
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 0.8
+			
+			modifier = {
+				factor = 1.2
+				date > "1944.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1945.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1946.1.1"
+			}
+		}
+		
+		categories = {
+			armor
+			cat_heavy_armor
+		}
+	}	
+}

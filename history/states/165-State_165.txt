@@ -1,0 +1,27 @@
+
+state={
+	id=165
+	name="STATE_165"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = ARS
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = ARS
+		victory_points = {
+        	    1658 10
+        	}
+	}
+
+	provinces={
+		112 376 863 1077 1327 1441 1578 1636 1658 1932 1957 2242 2252 2270 
+	}
+	manpower=699336
+	state_category=wasteland
+}

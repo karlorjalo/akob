@@ -1,0 +1,32 @@
+state={
+	id=91
+	name="STATE_91"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = ICR
+		buildings = {
+			infrastructure = 8
+			arms_factory = 9
+			industrial_complex = 14
+
+		}
+		victory_points = {
+        	    2103 10
+        	}
+		victory_points = {
+        	    2115 100
+        	}
+		add_core_of = ICR
+
+	}
+	state_category=supercity
+	provinces={
+		110 348 488 508 698 781 1527 1735 1757 1793 2103 2115 2127 
+	}
+	manpower=8223204
+	buildings_max_level_factor=11.000
+}

@@ -1,0 +1,29 @@
+state={
+	id=185
+	name="STATE_185"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = ARS
+		buildings = {
+			infrastructure = 3
+
+		}
+		victory_points = {
+        	    192 10
+        	}
+		victory_points = {
+        	    2284 10
+        	}
+		add_core_of = ARS
+
+	}
+	state_category=wasteland
+	provinces={
+		50 61 192 196 597 615 634 738 882 948 1154 1599 1774 1851 2284 2311 
+	}
+	manpower=1056309
+}

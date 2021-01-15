@@ -1,0 +1,36 @@
+
+state={
+	id=114
+	name="STATE_114"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = ARS
+		buildings = {
+			infrastructure = 8
+			arms_factory = 4
+			industrial_complex = 6
+
+		}
+		victory_points = {
+        	    1053 10
+        	}
+		victory_points = {
+        	    103 100
+        	}
+		victory_points = {
+        	    1933 10
+        	}
+		add_core_of = ARS
+
+	}
+
+	provinces={
+		48 71 103 722 1053 1082 1092 1492 1933 2168 
+	}
+	manpower=16185839
+	state_category=megalopolis
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=202
+	name="STATE_202"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = TRB
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = TRB
+
+	}
+
+	provinces={
+		55 581 804 844 1116 1524 2338 2341 
+	}
+	manpower=289618
+	state_category=rural
+}

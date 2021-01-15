@@ -1,0 +1,32 @@
+
+state={
+	id=54
+	name="STATE_54"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = ECH
+		buildings = {
+			infrastructure = 9
+			arms_factory = 6
+			industrial_complex = 8
+
+		}
+		add_core_of = ECH
+		victory_points = {
+        	    871 10
+        	}
+		victory_points = {
+        	    1320 70
+        	}
+	}
+
+	provinces={
+		123 236 429 780 871 931 1275 1320 1430 1583 1722 2050 2058 
+	}
+	manpower=8692529
+	state_category=megacity
+}

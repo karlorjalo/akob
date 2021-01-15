@@ -1,0 +1,26 @@
+
+state={
+	id=17
+	name="STATE_17"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = GOZ
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 10
+
+		}
+		add_core_of = GOZ
+
+	}
+
+	provinces={
+		258 552 881 1644 1874 1920 1994 2007 
+	}
+	manpower=275302
+	state_category=megalopolis
+}

@@ -1,0 +1,27 @@
+
+state={
+	id=178
+	name="STATE_178"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = TRB
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = TRB
+		victory_points = {
+        	    1803 5
+        	}
+	}
+
+	provinces={
+		86 194 347 516 545 1106 1156 1209 1257 1282 1442 1719 1737 1803 2248 2268 2286 2289 2296 
+	}
+	manpower=564951
+	state_category=rural
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=43
+	name="STATE_43"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = AGR
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = AGR
+		victory_points = {
+			34 5
+		}
+		victory_points = {
+			1825 10
+		}
+	}
+
+	provinces={
+		34 146 383 836 920 1261 1418 1530 1680 1749 1822 1825 
+	}
+	manpower=1534131
+	state_category=town
+}

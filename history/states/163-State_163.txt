@@ -1,0 +1,27 @@
+
+state={
+	id=163
+	name="STATE_163"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = ICR
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = ICR
+		victory_points = {
+        	    548 5
+        	}
+	}
+
+	provinces={
+		70 300 548 845 945 975 1008 1120 1465 1721 2238 2245 
+	}
+	manpower=524951
+	state_category=wasteland
+}

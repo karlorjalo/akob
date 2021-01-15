@@ -1,0 +1,32 @@
+
+state={
+	id=96
+	name="STATE_96"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = ILD
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = ILD
+		victory_points = {
+        	    461 15
+        	}
+		victory_points = {
+        	    859 15
+        	}
+	}
+
+	provinces={
+		98 272 340 414 461 832 859 1172 1438 1607 1820 1927 1951 2117 2131 
+	}
+	manpower=1241266
+	state_category=town
+}

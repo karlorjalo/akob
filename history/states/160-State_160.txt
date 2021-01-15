@@ -1,0 +1,25 @@
+
+state={
+	id=160
+	name="STATE_160"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = ARS
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = ARS
+
+	}
+
+	provinces={
+		169 652 910 1035 1160 1617 1663 1699 2235 
+	}
+	manpower=248627
+	state_category=rural
+}

@@ -1,0 +1,27 @@
+
+state={
+	id=52
+	name="STATE_52"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = OBX
+		buildings = {
+			infrastructure = 8
+
+		}
+		add_core_of = OBX
+		victory_points = {
+        	    372 10
+        	}
+	}
+
+	provinces={
+		372 1149 1179 1359 2362 2364 2365 2367 
+	}
+	manpower=676849
+	state_category=town
+}

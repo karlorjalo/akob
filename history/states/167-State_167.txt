@@ -1,0 +1,32 @@
+
+state={
+	id=167
+	name="STATE_167"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = ARB
+		buildings = {
+			infrastructure = 8
+			arms_factory = 2
+			industrial_complex = 3
+
+		}
+		add_core_of = ARB
+		victory_points = {
+        	    2275 10
+        	}
+		victory_points = {
+        	    702 80
+        	}
+	}
+
+	provinces={
+		37 435 495 702 703 746 835 880 1584 1645 1824 1849 1935 2249 2258 2265 2275 2283 
+	}
+	manpower=7877258
+	state_category=city
+}

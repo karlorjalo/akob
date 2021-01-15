@@ -1,0 +1,25 @@
+
+state={
+	id=138
+	name="STATE_138"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = ILD
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = ILD
+
+	}
+
+	provinces={
+		27 159 302 410 1439 1746 1903 1950 
+	}
+	manpower=170878
+	state_category=rural
+}

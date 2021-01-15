@@ -1,0 +1,25 @@
+
+state={
+	id=97
+	name="STATE_97"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = ILD
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = ILD
+
+	}
+
+	provinces={
+		249 831 956 1234 1378 1587 1884 1904 1937 
+	}
+	manpower=262499
+	state_category=rural
+}
