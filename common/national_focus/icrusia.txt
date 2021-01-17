@@ -1115,38 +1115,6 @@ focus = {
 
 	focus = {
 		id = ICR_break_up_the_loyalists
-		icon = GFX_goal_generic_major_war
-		x = -8
-		y = 10
-		relative_position_id = ICR_icrusia_at_war
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-		prerequisite = { focus = ICR_entice_the_democrats }
-		#mutally_exclusive = {focus = }
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_political_power = 100
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = ICR_break_up_the_loyalists
 		icon = GFX_goal_generic_political_pressure
 		x = 13
 		y = 10

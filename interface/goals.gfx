@@ -1,6 +1,82 @@
 spriteTypes = {	
 
 	SpriteType = {
+	name = "GFX_goal_invest_in_south"
+	texturefile = "gfx/interface/goals/goal_invest_in_south.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_tronodia_gunworks"
+	texturefile = "gfx/interface/goals/goal_tronodia_gunworks.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_off_with_their_heads"
+	texturefile = "gfx/interface/goals/goal_off_with_their_heads.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_fire_and_brimstone"
+	texturefile = "gfx/interface/goals/goal_fire_and_brimstone.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_mjuwda_gunworks"
+	texturefile = "gfx/interface/goals/goal_mjuwda_gunworks.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_lucrative_plantations"
+	texturefile = "gfx/interface/goals/goal_lucrative_plantations.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_grow_wheat_farm"
+	texturefile = "gfx/interface/goals/goal_grow_wheat_farm.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_invest_in_mountain"
+	texturefile = "gfx/interface/goals/goal_invest_in_mountain.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_redistribute_icrusian_lands"
+	texturefile = "gfx/interface/goals/goal_redistribute_icrusian_lands.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_crown_colony"
+	texturefile = "gfx/interface/goals/goal_crown_colony.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_city_of_angel"
+	texturefile = "gfx/interface/goals/goal_city_of_angel.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_circus_airestonia"
+	texturefile = "gfx/interface/goals/goal_circus_airestonia.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_arrest_without_trial"
+	texturefile = "gfx/interface/goals/goal_arrest_without_trial.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_prison"
+	texturefile = "gfx/interface/goals/goal_prison.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_noose"
+	texturefile = "gfx/interface/goals/goal_noose.dds"			
+	}	
+
+# Icrusia
+	SpriteType = {
 	name = "GFX_goal_generic_cavalry_group"
 	texturefile = "gfx/interface/goals/goal_generic_cavalry_group.dds"			
 	}	
