@@ -1,0 +1,5131 @@
+focus_tree = {
+	id = gozyr_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = GOZ
+
+		}
+
+		#modifier = {
+		#	add = 10
+		#	original_tag = AST
+		#	has_dlc = "Together for Victory"
+		#}
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 1850 y = 2000 }
+
+	focus = {
+		id = GOZ_call_the_51st_congress_of_the_federation
+		icon = GFX_goal_generic_icrusia_at_war
+		x = 38.5
+		y = 0
+		#relative_position_id = AST_empower_the_workers
+		#prerequisite = { focus = AST_workers_paradise }
+		mutually_exclusive = {focus = GOZ_economy_above_all }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_assess_the_state
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = GOZ_call_the_51st_congress_of_the_federation
+		prerequisite = { focus = GOZ_call_the_51st_congress_of_the_federation }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+###### assess
+	
+	focus = {
+		id = GOZ_enemies_all_around
+		icon = GFX_goal_generic_major_war
+		x = 27
+		y = 2
+		#relative_position_id = GOZ_call_the_51st_congress_of_the_federation
+		prerequisite = { focus = GOZ_assess_the_state }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_the_eagle_preys_upon_us
+		icon = GFX_goal_generic_major_war
+		x = 23
+		y = 3
+		#relative_position_id = GOZ_call_the_51st_congress_of_the_federation
+		prerequisite = { focus = GOZ_enemies_all_around }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_memories_of_the_emergency
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = GOZ_the_eagle_preys_upon_us
+		prerequisite = { focus = GOZ_the_eagle_preys_upon_us }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_prepare_for_defensive_warfare
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 2
+		relative_position_id = GOZ_the_eagle_preys_upon_us
+		prerequisite = { focus = GOZ_memories_of_the_emergency }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_not_one_step_back
+		icon = GFX_goal_generic_major_war
+		x = -1
+		y = 3
+		relative_position_id = GOZ_the_eagle_preys_upon_us
+		prerequisite = { focus = GOZ_prepare_for_defensive_warfare }
+		mutually_exclusive = {focus = GOZ_protect_the_heartland }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_fortify_onarough
+		icon = GFX_goal_generic_major_war
+		x = -1
+		y = 4
+		relative_position_id = GOZ_the_eagle_preys_upon_us
+		prerequisite = { focus = GOZ_not_one_step_back }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_protect_the_heartland
+		icon = GFX_goal_generic_major_war
+		x = 1
+		y = 3
+		relative_position_id = GOZ_the_eagle_preys_upon_us
+		prerequisite = { focus = GOZ_prepare_for_defensive_warfare }
+		mutually_exclusive = {focus = GOZ_not_one_step_back }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_build_the_olmobuch-stevesk_trenches
+		icon = GFX_goal_generic_major_war
+		x = 1
+		y = 4
+		relative_position_id = GOZ_the_eagle_preys_upon_us
+		prerequisite = { focus = GOZ_protect_the_heartland }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_fund_the_torgyr_spy_company
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 5
+		relative_position_id = GOZ_the_eagle_preys_upon_us
+		prerequisite = { focus = GOZ_fortify_onarough OR = GOZ_build_the_olmobuch-stevesk_trenches}
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_finance_the_great_wall
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 6
+		relative_position_id = GOZ_the_eagle_preys_upon_us
+		prerequisite = { focus = GOZ_fund_the_torgyr_spy_company }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_contact_the_lost_people
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 7
+		relative_position_id = GOZ_the_eagle_preys_upon_us
+		prerequisite = { focus = GOZ_finance_the_great_wall }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_spies_in_high_places
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 8
+		relative_position_id = GOZ_the_eagle_preys_upon_us
+		prerequisite = { focus = GOZ_contact_the_lost_people }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_set_up_the_recapture_command
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 8
+		relative_position_id = GOZ_the_eagle_preys_upon_us
+		prerequisite = { focus = GOZ_contact_the_lost_people }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_initiate_resistance_newspapers
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 8
+		relative_position_id = GOZ_the_eagle_preys_upon_us
+		prerequisite = { focus = GOZ_contact_the_lost_people }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_once_injured_twice_shy
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 9
+		relative_position_id = GOZ_the_eagle_preys_upon_us
+		prerequisite = { focus = GOZ_spies_in_high_places }
+		prerequisite = { focus = GOZ_set_up_the_recapture_command }
+		prerequisite = { focus = GOZ_initiate_resistance_newspapers }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_fear_the_second_empire
+		icon = GFX_goal_generic_major_war
+		x = 30
+		y = 3
+		#relative_position_id = GOZ_call_the_51st_congress_of_the_federation
+		prerequisite = { focus = GOZ_enemies_all_around }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_an_unholy_alliance
+		icon = GFX_goal_generic_major_war
+		x = -1
+		y = 1
+		relative_position_id = GOZ_fear_the_second_empire
+		prerequisite = { focus = GOZ_fear_the_second_empire }
+		mutually_exclusive = {focus = GOZ_from_our_own_pockets }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_host_the_trentia_talks
+		icon = GFX_goal_generic_major_war
+		x = -1
+		y = 2
+		relative_position_id = GOZ_fear_the_second_empire
+		prerequisite = { focus = GOZ_an_unholy_alliance }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_icrusian-gozyr_trade_agreement
+		icon = GFX_goal_generic_major_war
+		x = -1
+		y = 3
+		relative_position_id = GOZ_fear_the_second_empire
+		prerequisite = { focus = GOZ_an_unholy_alliance }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_icrusian-gozyr_trade_agreement
+		icon = GFX_goal_generic_major_war
+		x = -1
+		y = 3
+		relative_position_id = GOZ_fear_the_second_empire
+		prerequisite = { focus = GOZ_an_unholy_alliance }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_buy_icrusian_arms
+		icon = GFX_goal_generic_major_war
+		x = -1
+		y = 4
+		relative_position_id = GOZ_fear_the_second_empire
+		prerequisite = { focus = GOZ_icrusian-gozyr_trade_agreement }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_north_central_ambulas_economic_union
+		icon = GFX_goal_generic_major_war
+		x = -1
+		y = 5
+		relative_position_id = GOZ_fear_the_second_empire
+		prerequisite = { focus = GOZ_icrusian-gozyr_trade_agreement }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_bow_down_to_the_king
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 6
+		relative_position_id = GOZ_fear_the_second_empire
+		prerequisite = { focus = GOZ_north_central_ambulas_economic_union }
+		mutually_exclusive = {focus = GOZ_become_a_junior_partner }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_icrusian_tributes
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 7
+		relative_position_id = GOZ_fear_the_second_empire
+		prerequisite = { focus = GOZ_bow_down_to_the_king }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_buy_back_our_lands
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 8
+		relative_position_id = GOZ_fear_the_second_empire
+		prerequisite = { focus = GOZ_icrusian_tributes }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_become_a_junior_partner
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 6
+		relative_position_id = GOZ_fear_the_second_empire
+		prerequisite = { focus = GOZ_north_central_ambulas_economic_union }
+		mutually_exclusive = {focus = GOZ_bow_down_to_the_king }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_strike_a_military_deal
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 7
+		relative_position_id = GOZ_fear_the_second_empire
+		prerequisite = { focus = GOZ_become_a_junior_partner }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_icrusian_money_making_machine
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 8
+		relative_position_id = GOZ_fear_the_second_empire
+		prerequisite = { focus = GOZ_strike_a_military_deal }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_form_the_black_feather_pact
+		icon = GFX_goal_generic_major_war
+		x = -1
+		y = 9
+		relative_position_id = GOZ_fear_the_second_empire
+		prerequisite = { focus = GOZ_buy_back_our_lands OR = GOZ_icrusian_money_making_machine }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_from_our_own_pockets
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 1
+		relative_position_id = GOZ_fear_the_second_empire
+		prerequisite = { focus = GOZ_fear_the_second_empire }
+		mutually_exclusive = {focus = GOZ_an_unholy_alliance }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_infiltrate_airestonian_walls
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 2
+		relative_position_id = GOZ_fear_the_second_empire
+		prerequisite = { focus = GOZ_from_our_own_pockets }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_fund_airestonian_terrorist_groups
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 3
+		relative_position_id = GOZ_fear_the_second_empire
+		prerequisite = { focus = GOZ_infiltrate_airestonian_walls }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_invade_airestonian_markets
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 4
+		relative_position_id = GOZ_fear_the_second_empire
+		prerequisite = { focus = GOZ_fund_airestonian_terrorist_groups }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_bribe_airestonian_officials
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 5
+		relative_position_id = GOZ_fear_the_second_empire
+		prerequisite = { focus = GOZ_invade_airestonian_markets }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_boost_the_spy_network
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 6
+		relative_position_id = GOZ_fear_the_second_empire
+		prerequisite = { focus = GOZ_bribe_airestonian_officials }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_request_mercenary_help
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 7
+		relative_position_id = GOZ_fear_the_second_empire
+		prerequisite = { focus = GOZ_boost_the_spy_network }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+#####
+
+	focus = {
+		id = GOZ_we_have_a_army
+		icon = GFX_goal_generic_major_war
+		x = 50
+		y = 2
+		#relative_position_id = GOZ_call_the_51st_congress_of_the_federation
+		prerequisite = { focus = GOZ_assess_the_state }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_start_from_the_ground_up
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = GOZ_we_have_a_army
+		prerequisite = { focus = GOZ_we_have_a_army }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_initiate_the_first_recruitment_drive
+		icon = GFX_goal_generic_major_war
+		x = 37
+		y = 4
+		#relative_position_id = GOZ_we_have_a_army
+		prerequisite = { focus = GOZ_start_from_the_ground_up }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_simplify_recruitment_process
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 1
+		relative_position_id = GOZ_initiate_the_first_recruitment_drive
+		prerequisite = { focus = GOZ_initiate_the_first_recruitment_drive }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_found_the_1st_marshal_battalion
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 2
+		relative_position_id = GOZ_initiate_the_first_recruitment_drive
+		prerequisite = { focus = GOZ_simplify_recruitment_process }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_set_up_the_frontline_donation_fund
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 3
+		relative_position_id = GOZ_initiate_the_first_recruitment_drive
+		prerequisite = { focus = GOZ_found_the_1st_marshal_battalion }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_fund_the_national_youth_union
+		icon = GFX_goal_generic_major_war
+		x = 1
+		y = 1
+		relative_position_id = GOZ_initiate_the_first_recruitment_drive
+		prerequisite = { focus = GOZ_initiate_the_first_recruitment_drive }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_create_the_reshi_legions
+		icon = GFX_goal_generic_major_war
+		x = 1
+		y = 2
+		relative_position_id = GOZ_initiate_the_first_recruitment_drive
+		prerequisite = { focus = GOZ_fund_the_national_youth_union }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_little_man_shows
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 3
+		relative_position_id = GOZ_initiate_the_first_recruitment_drive
+		prerequisite = { focus = GOZ_create_the_reshi_legions }
+		mutually_exclusive = {focus = GOZ_open_the_rshavesk_heroes_memorial }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_open_the_rshavesk_heroes_memorial
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 3
+		relative_position_id = GOZ_initiate_the_first_recruitment_drive
+		prerequisite = { focus = GOZ_create_the_reshi_legions }
+		mutually_exclusive = {focus = GOZ_little_man_shows }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_operation_andromeda
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 4
+		relative_position_id = GOZ_initiate_the_first_recruitment_drive
+		prerequisite = { focus = GOZ_set_up_the_frontline_donation_fund OR = GOZ_little_man_shows OR = GOZ_open_the_rshavesk_heroes_memorial }
+		#mutually_exclusive = {focus = GOZ_little_man_shows }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_form_a_war_comittee
+		icon = GFX_goal_generic_major_war
+		x = 47
+		y = 4
+		#relative_position_id = GOZ_we_have_a_army
+		prerequisite = { focus = GOZ_start_from_the_ground_up }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_reassign_the_gozyr_border_guards
+		icon = GFX_goal_generic_major_war
+		x = -5
+		y = 1
+		relative_position_id = GOZ_form_a_war_comittee
+		prerequisite = { focus = GOZ_form_a_war_comittee }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_invite_echainaian_military_experts
+		icon = GFX_goal_generic_major_war
+		x = -5
+		y = 2
+		relative_position_id = GOZ_form_a_war_comittee
+		prerequisite = { focus = GOZ_reassign_the_gozyr_border_guards }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_train_the_first_generals
+		icon = GFX_goal_generic_major_war
+		x = -5
+		y = 3
+		relative_position_id = GOZ_form_a_war_comittee
+		prerequisite = { focus = GOZ_invite_echainaian_military_experts }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_reestablish_the_hitrovro_military_academy
+		icon = GFX_goal_generic_major_war
+		x = -5
+		y = 4
+		relative_position_id = GOZ_form_a_war_comittee
+		prerequisite = { focus = GOZ_train_the_first_generals }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_study_into_mage_warfare
+		icon = GFX_goal_generic_major_war
+		x = -3
+		y = 1
+		relative_position_id = GOZ_form_a_war_comittee
+		prerequisite = { focus = GOZ_form_a_war_comittee }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_rediscover_magic
+		icon = GFX_goal_generic_major_war
+		x = -3
+		y = 2
+		relative_position_id = GOZ_form_a_war_comittee
+		prerequisite = { focus = GOZ_study_into_mage_warfare }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_start_the_univeristy_for_arcanic_thought
+		icon = GFX_goal_generic_major_war
+		x = -3
+		y = 3
+		relative_position_id = GOZ_form_a_war_comittee
+		prerequisite = { focus = GOZ_rediscover_magic }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_invest_into_the_triad_mage_group
+		icon = GFX_goal_generic_major_war
+		x = -3
+		y = 4
+		relative_position_id = GOZ_form_a_war_comittee
+		prerequisite = { focus = GOZ_start_the_univeristy_for_arcanic_thought }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_widen_the_mage_acceptance_pool
+		icon = GFX_goal_generic_major_war
+		x = -3
+		y = 5
+		relative_position_id = GOZ_form_a_war_comittee
+		prerequisite = { focus = GOZ_invest_into_the_triad_mage_group }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_fund_new_armaments_research_centres
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 1
+		relative_position_id = GOZ_form_a_war_comittee
+		prerequisite = { focus = GOZ_form_a_war_comittee }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_buy_artillery_patents
+		icon = GFX_goal_generic_major_war
+		x = -1
+		y = 2
+		relative_position_id = GOZ_form_a_war_comittee
+		prerequisite = { focus = GOZ_fund_new_armaments_research_centres }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_studies_into_the_hellswarm
+		icon = GFX_goal_generic_major_war
+		x = -1
+		y = 3
+		relative_position_id = GOZ_form_a_war_comittee
+		prerequisite = { focus = GOZ_buy_artillery_patents }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_invest_in_the_atarx_battery_company
+		icon = GFX_goal_generic_major_war
+		x = -1
+		y = 4
+		relative_position_id = GOZ_form_a_war_comittee
+		prerequisite = { focus = GOZ_studies_into_the_hellswarm }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_shell_our_way_to_success
+		icon = GFX_goal_generic_major_war
+		x = -1
+		y = 5
+		relative_position_id = GOZ_form_a_war_comittee
+		prerequisite = { focus = GOZ_invest_in_the_atarx_battery_company }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_buy_rifle_patents
+		icon = GFX_goal_generic_major_war
+		x = 1
+		y = 2
+		relative_position_id = GOZ_form_a_war_comittee
+		prerequisite = { focus = GOZ_fund_new_armaments_research_centres }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_buy_support_equipment_patents
+		icon = GFX_goal_generic_major_war
+		x = 3
+		y = 2
+		relative_position_id = GOZ_form_a_war_comittee
+		prerequisite = { focus = GOZ_fund_new_armaments_research_centres }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_study_elite_troop_tactics
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 3
+		relative_position_id = GOZ_form_a_war_comittee
+		prerequisite = { focus = GOZ_buy_rifle_patents }
+		prerequisite = { focus = GOZ_buy_support_equipment_patents }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_invest_in_hukima_gunworks
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 4
+		relative_position_id = GOZ_form_a_war_comittee
+		prerequisite = { focus = GOZ_study_elite_troop_tactics }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_great_army_revival
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 5
+		relative_position_id = GOZ_form_a_war_comittee
+		prerequisite = { focus = GOZ_invest_in_hukima_gunworks }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_promote_cavalry_research
+		icon = GFX_goal_generic_major_war
+		x = 5
+		y = 2
+		relative_position_id = GOZ_form_a_war_comittee
+		prerequisite = { focus = GOZ_fund_new_armaments_research_centres }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_fund_the_trench_war_horse_group
+		icon = GFX_goal_generic_major_war
+		x = 5
+		y = 3
+		relative_position_id = GOZ_form_a_war_comittee
+		prerequisite = { focus = GOZ_promote_cavalry_research }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_faster_than_light
+		icon = GFX_goal_generic_major_war
+		x = 4
+		y = 4
+		relative_position_id = GOZ_form_a_war_comittee
+		prerequisite = { focus = GOZ_fund_the_trench_war_horse_group }
+		mutually_exclusive = {focus = GOZ_rolling_thunder }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_rolling_thunder
+		icon = GFX_goal_generic_major_war
+		x = 6
+		y = 4
+		relative_position_id = GOZ_form_a_war_comittee
+		prerequisite = { focus = GOZ_fund_the_trench_war_horse_group }
+		mutually_exclusive = {focus = GOZ_faster_than_light }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_get_off_the_high_horse
+		icon = GFX_goal_generic_major_war
+		x = 5
+		y = 5
+		relative_position_id = GOZ_form_a_war_comittee
+		prerequisite = { focus = GOZ_faster_than_light OR = GOZ_rolling_thunder }
+		#mutually_exclusive = {focus = GOZ_faster_than_light }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_war_promotion_comission
+		icon = GFX_goal_generic_major_war
+		x = 58
+		y = 4
+		#relative_position_id = GOZ_we_have_a_army
+		prerequisite = { focus = GOZ_start_from_the_ground_up }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_get_equipment_for_troops
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = GOZ_war_promotion_comission
+		prerequisite = { focus = GOZ_war_promotion_comission }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_repurpose_old_tool_factories
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 2
+		relative_position_id = GOZ_war_promotion_comission
+		prerequisite = { focus = GOZ_get_equipment_for_troops }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_initiate_the_2_year_plan
+		icon = GFX_goal_generic_major_war
+		x = -1
+		y = 3
+		relative_position_id = GOZ_war_promotion_comission
+		prerequisite = { focus = GOZ_repurpose_old_tool_factories }
+		mutually_exclusive = {focus = GOZ_force_an_instant_war_economy }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_employ_prisoner_levies
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 4
+		relative_position_id = GOZ_war_promotion_comission
+		prerequisite = { focus = GOZ_initiate_the_2_year_plan }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_establish_unemployed_working_companies
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 5
+		relative_position_id = GOZ_war_promotion_comission
+		prerequisite = { focus = GOZ_employ_prisoner_levies }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_recruit_foreign_labour
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 6
+		relative_position_id = GOZ_war_promotion_comission
+		prerequisite = { focus = GOZ_establish_unemployed_working_companies }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_woman_in_the_workforce
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 7
+		relative_position_id = GOZ_war_promotion_comission
+		prerequisite = { focus = GOZ_recruit_foreign_labour }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_rshavesk_central_hub
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 8
+		relative_position_id = GOZ_war_promotion_comission
+		prerequisite = { focus = GOZ_woman_in_the_workforce }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_increase_working_hours
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 4
+		relative_position_id = GOZ_war_promotion_comission
+		prerequisite = { focus = GOZ_initiate_the_2_year_plan }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_build_more_factories_in_the_countryside
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 5
+		relative_position_id = GOZ_war_promotion_comission
+		prerequisite = { focus = GOZ_increase_working_hours }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_set_higher_quotas
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 6
+		relative_position_id = GOZ_war_promotion_comission
+		prerequisite = { focus = GOZ_build_more_factories_in_the_countryside }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_land_requisition_plan
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 7
+		relative_position_id = GOZ_war_promotion_comission
+		prerequisite = { focus = GOZ_set_higher_quotas }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_erase_bureaucracy
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 8
+		relative_position_id = GOZ_war_promotion_comission
+		prerequisite = { focus = GOZ_land_requisition_plan }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_force_an_instant_war_economy
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 3
+		relative_position_id = GOZ_war_promotion_comission
+		prerequisite = { focus = GOZ_repurpose_old_tool_factories }
+		mutually_exclusive = {focus = GOZ_initiate_the_2_year_plan }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_convert_consumer_factories
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 4
+		relative_position_id = GOZ_war_promotion_comission
+		prerequisite = { focus = GOZ_force_an_instant_war_economy }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_work_does_not_discriminate
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 5
+		relative_position_id = GOZ_war_promotion_comission
+		prerequisite = { focus = GOZ_convert_consumer_factories }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_set_up_the_work_enforcement_group
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 6
+		relative_position_id = GOZ_war_promotion_comission
+		prerequisite = { focus = GOZ_work_does_not_discriminate }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_construct_the_versk-stevesk_road
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 7
+		relative_position_id = GOZ_war_promotion_comission
+		prerequisite = { focus = GOZ_set_up_the_work_enforcement_group }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_massive_factory_expansions
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 8
+		relative_position_id = GOZ_war_promotion_comission
+		prerequisite = { focus = GOZ_construct_the_versk-stevesk_road }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_prosperity
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 9
+		relative_position_id = GOZ_war_promotion_comission
+		prerequisite = { focus = GOZ_rshavesk_central_hub OR = GOZ_erase_bureaucracy }
+		prerequisite = { focus = GOZ_massive_factory_expansions }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+########
+
+	focus = {
+		id = GOZ_economy_above_all
+		icon = GFX_goal_generic_icrusia_at_war
+		x = 71.5
+		y = 0
+		#relative_position_id = AST_empower_the_workers
+		#prerequisite = { focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_burst_the_economic_bubble
+		icon = GFX_goal_generic_major_war
+		x = 67
+		y = 1
+		#relative_position_id = GOZ_war_promotion_comission
+		prerequisite = { focus = GOZ_economy_above_all }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_bail_out_failing_banks
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 1
+		relative_position_id = GOZ_burst_the_economic_bubble
+		prerequisite = { focus = GOZ_burst_the_economic_bubble }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_devalue_the_currency
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = GOZ_burst_the_economic_bubble
+		prerequisite = { focus = GOZ_burst_the_economic_bubble }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+	
+	focus = {
+		id = GOZ_subsidise_suffering_businesses
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 1
+		relative_position_id = GOZ_burst_the_economic_bubble
+		prerequisite = { focus = GOZ_burst_the_economic_bubble }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_get_bang_for_our_buck
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 2
+		relative_position_id = GOZ_burst_the_economic_bubble
+		prerequisite = { focus = GOZ_bail_out_failing_banks }
+		prerequisite = { focus = GOZ_devalue_the_currency }
+		prerequisite = { focus = GOZ_subsidise_suffering_businesses }
+		mutually_exclusive = {focus = GOZ_ethical_economical_practices }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_subsidies_the_big_2
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 3
+		relative_position_id = GOZ_burst_the_economic_bubble
+		prerequisite = { focus = GOZ_get_bang_for_our_buck }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_grand_business_protection_law
+		icon = GFX_goal_generic_major_war
+		x = -3
+		y = 4
+		relative_position_id = GOZ_burst_the_economic_bubble
+		prerequisite = { focus = GOZ_subsidies_the_big_2 }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_new_work_deal
+		icon = GFX_goal_generic_major_war
+		x = -1
+		y = 4
+		relative_position_id = GOZ_burst_the_economic_bubble
+		prerequisite = { focus = GOZ_subsidies_the_big_2 }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_liquidate_unprofitable_businesses
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 5
+		relative_position_id = GOZ_burst_the_economic_bubble
+		prerequisite = { focus = GOZ_grand_business_protection_law }
+		prerequisite = { focus = GOZ_new_work_deal }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_give_out_new_contracts
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 6
+		relative_position_id = GOZ_burst_the_economic_bubble
+		prerequisite = { focus = GOZ_liquidate_unprofitable_businesses }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_at_the_top_of_the_world
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 7
+		relative_position_id = GOZ_burst_the_economic_bubble
+		prerequisite = { focus = GOZ_give_out_new_contracts }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_ethical_economical_practices
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 2
+		relative_position_id = GOZ_burst_the_economic_bubble
+		prerequisite = { focus = GOZ_bail_out_failing_banks }
+		prerequisite = { focus = GOZ_devalue_the_currency }
+		prerequisite = { focus = GOZ_subsidise_suffering_businesses }
+		mutually_exclusive = {focus = GOZ_get_bang_for_our_buck }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_break_up_the_big_2
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 3
+		relative_position_id = GOZ_burst_the_economic_bubble
+		prerequisite = { focus = GOZ_ethical_economical_practices }
+		#mutually_exclusive = {focus = GOZ_get_bang_for_our_buck }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_strengthen_clients_trust
+		icon = GFX_goal_generic_major_war
+		x = 1
+		y = 4
+		relative_position_id = GOZ_burst_the_economic_bubble
+		prerequisite = { focus = GOZ_break_up_the_big_2 }
+		#mutually_exclusive = {focus = GOZ_get_bang_for_our_buck }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_work_safety_classifications
+		icon = GFX_goal_generic_major_war
+		x = 1
+		y = 5
+		relative_position_id = GOZ_burst_the_economic_bubble
+		prerequisite = { focus = GOZ_strengthen_clients_trust }
+		#mutually_exclusive = {focus = GOZ_get_bang_for_our_buck }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_enforce_the_anti-exploitation_law
+		icon = GFX_goal_generic_major_war
+		x = 3
+		y = 4
+		relative_position_id = GOZ_burst_the_economic_bubble
+		prerequisite = { focus = GOZ_break_up_the_big_2 }
+		#mutually_exclusive = {focus = GOZ_get_bang_for_our_buck }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_build_up_the_hitrovro_trust_fund
+		icon = GFX_goal_generic_major_war
+		x = 3
+		y = 5
+		relative_position_id = GOZ_burst_the_economic_bubble
+		prerequisite = { focus = GOZ_enforce_the_anti-exploitation_law }
+		#mutually_exclusive = {focus = GOZ_get_bang_for_our_buck }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_angels_of_economics
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 6
+		relative_position_id = GOZ_burst_the_economic_bubble
+		prerequisite = { focus = GOZ_work_safety_classifications }
+		prerequisite = { focus = GOZ_build_up_the_hitrovro_trust_fund }
+		#mutually_exclusive = {focus = GOZ_get_bang_for_our_buck }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_forward-looking_economy
+		icon = GFX_goal_generic_major_war
+		x = 76
+		y = 1
+		#relative_position_id = GOZ_war_promotion_comission
+		prerequisite = { focus = GOZ_economy_above_all }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_expand_the_financial_sector
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = GOZ_forward-looking_economy
+		prerequisite = { focus = GOZ_forward-looking_economy }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_fund_political_businesses
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 2
+		relative_position_id = GOZ_forward-looking_economy
+		prerequisite = { focus = GOZ_expand_the_financial_sector }
+		mutually_exclusive = {focus = GOZ_promote_industrial_businesses }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_literacy_drive
+		icon = GFX_goal_generic_major_war
+		x = -3
+		y = 3
+		relative_position_id = GOZ_forward-looking_economy
+		prerequisite = { focus = GOZ_fund_political_businesses }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_build_new_schools
+		icon = GFX_goal_generic_major_war
+		x = -3
+		y = 4
+		relative_position_id = GOZ_forward-looking_economy
+		prerequisite = { focus = GOZ_literacy_drive }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_hire_more_professors
+		icon = GFX_goal_generic_major_war
+		x = -3
+		y = 5
+		relative_position_id = GOZ_forward-looking_economy
+		prerequisite = { focus = GOZ_build_new_schools }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_expand_the_univesirty_of_rshavesk 
+		icon = GFX_goal_generic_major_war
+		x = -3
+		y = 6
+		relative_position_id = GOZ_forward-looking_economy
+		prerequisite = { focus = GOZ_hire_more_professors }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_finance_law_schools
+		icon = GFX_goal_generic_major_war
+		x = -1
+		y = 3
+		relative_position_id = GOZ_forward-looking_economy
+		prerequisite = { focus = GOZ_fund_political_businesses }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_root_out_corruption
+		icon = GFX_goal_generic_major_war
+		x = -1
+		y = 4
+		relative_position_id = GOZ_forward-looking_economy
+		prerequisite = { focus = GOZ_finance_law_schools }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_increase_congress_budgets
+		icon = GFX_goal_generic_major_war
+		x = -1
+		y = 5
+		relative_position_id = GOZ_forward-looking_economy
+		prerequisite = { focus = GOZ_root_out_corruption }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_pay_politicians_more
+		icon = GFX_goal_generic_major_war
+		x = -1
+		y = 6
+		relative_position_id = GOZ_forward-looking_economy
+		prerequisite = { focus = GOZ_increase_congress_budgets }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_the_world_most_educated
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 7
+		relative_position_id = GOZ_forward-looking_economy
+		prerequisite = { focus = GOZ_expand_the_univesirty_of_rshavesk }
+		prerequisite = { focus = GOZ_pay_politicians_more }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_promote_industrial_businesses
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 2
+		relative_position_id = GOZ_forward-looking_economy
+		prerequisite = { focus = GOZ_expand_the_financial_sector }
+		mutually_exclusive = {focus = GOZ_fund_political_businesses }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_rshavesk_consumer_hub
+		icon = GFX_goal_generic_major_war
+		x = 1
+		y = 3
+		relative_position_id = GOZ_forward-looking_economy
+		prerequisite = { focus = GOZ_promote_industrial_businesses }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_modern_industrial_centres
+		icon = GFX_goal_generic_major_war
+		x = 1
+		y = 4
+		relative_position_id = GOZ_forward-looking_economy
+		prerequisite = { focus = GOZ_rshavesk_consumer_hub }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_conduct_mining_operations
+		icon = GFX_goal_generic_major_war
+		x = 3
+		y = 3
+		relative_position_id = GOZ_forward-looking_economy
+		prerequisite = { focus = GOZ_promote_industrial_businesses }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_improve_extraction_efficiency
+		icon = GFX_goal_generic_major_war
+		x = 3
+		y = 4
+		relative_position_id = GOZ_forward-looking_economy
+		prerequisite = { focus = GOZ_conduct_mining_operations }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_synthetic_productions
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 5
+		relative_position_id = GOZ_forward-looking_economy
+		prerequisite = { focus = GOZ_modern_industrial_centres }
+		prerequisite = { focus = GOZ_improve_extraction_efficiency }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_advanced_industrial_methods
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 6
+		relative_position_id = GOZ_forward-looking_economy
+		prerequisite = { focus = GOZ_synthetic_productions }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_development_grants
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 7
+		relative_position_id = GOZ_forward-looking_economy
+		prerequisite = { focus = GOZ_advanced_industrial_methods }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_small_rich_nation
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 8
+		relative_position_id = GOZ_forward-looking_economy
+		prerequisite = { focus = GOZ_development_grants OR = GOZ_the_world_most_educated }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_protect_our_pockets
+		icon = GFX_goal_generic_major_war
+		x = -4.5
+		y = 9
+		relative_position_id = GOZ_forward-looking_economy
+		prerequisite = { focus = GOZ_small_rich_nation }
+		prerequisite = { focus = GOZ_at_the_top_of_the_world OR = GOZ_angels_of_economics }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_redevelop_the_defence_force
+		icon = GFX_goal_generic_major_war
+		x = 68
+		y = 11
+		#relative_position_id = GOZ_forward-looking_economy
+		prerequisite = { focus = GOZ_protect_our_pockets }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_pay_foreign_military_experts
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 1
+		relative_position_id = GOZ_redevelop_the_defence_force
+		prerequisite = { focus = GOZ_redevelop_the_defence_force }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_promote_rising_generals
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 2
+		relative_position_id = GOZ_redevelop_the_defence_force
+		prerequisite = { focus = GOZ_pay_foreign_military_experts }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_increase_military_pay
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 3
+		relative_position_id = GOZ_redevelop_the_defence_force
+		prerequisite = { focus = GOZ_promote_rising_generals }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_hire_mercenaries
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 4
+		relative_position_id = GOZ_redevelop_the_defence_force
+		prerequisite = { focus = GOZ_increase_military_pay }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_re-equip_the_military
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = GOZ_redevelop_the_defence_force
+		prerequisite = { focus = GOZ_redevelop_the_defence_force }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_increase_military_budget
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 2
+		relative_position_id = GOZ_redevelop_the_defence_force
+		prerequisite = { focus = GOZ_re-equip_the_military }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_war_subsidies_act
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 3
+		relative_position_id = GOZ_redevelop_the_defence_force
+		prerequisite = { focus = GOZ_increase_military_budget }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_buy_more_guns
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 4
+		relative_position_id = GOZ_redevelop_the_defence_force
+		prerequisite = { focus = GOZ_war_subsidies_act }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_repurpose_media_groups
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 1
+		relative_position_id = GOZ_redevelop_the_defence_force
+		prerequisite = { focus = GOZ_redevelop_the_defence_force }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_propaganda_for_hire
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 2
+		relative_position_id = GOZ_redevelop_the_defence_force
+		prerequisite = { focus = GOZ_repurpose_media_groups }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_set_up_the_media_crafts_corporation
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 3
+		relative_position_id = GOZ_redevelop_the_defence_force
+		prerequisite = { focus = GOZ_propaganda_for_hire }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_heroes_on_the_frontline
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 4
+		relative_position_id = GOZ_redevelop_the_defence_force
+		prerequisite = { focus = GOZ_set_up_the_media_crafts_corporation }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_the_inevitable_truth
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 5
+		relative_position_id = GOZ_redevelop_the_defence_force
+		prerequisite = { focus = GOZ_heroes_on_the_frontline }
+		prerequisite = { focus = GOZ_buy_more_guns }
+		prerequisite = { focus = GOZ_hire_mercenaries }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_seek_out_friends
+		icon = GFX_goal_generic_major_war
+		x = 75
+		y = 11
+		#relative_position_id = GOZ_forward-looking_economy
+		prerequisite = { focus = GOZ_protect_our_pockets }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_deal_with_the_echainaians
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 1
+		relative_position_id = GOZ_seek_out_friends
+		prerequisite = { focus = GOZ_seek_out_friends }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_form_the_great_lakes_union
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 2
+		relative_position_id = GOZ_seek_out_friends
+		prerequisite = { focus = GOZ_deal_with_the_echainaians }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_buy_out_echainaian_trust
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 3
+		relative_position_id = GOZ_seek_out_friends
+		prerequisite = { focus = GOZ_form_the_great_lakes_union }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_ignite_the_great_northern_alliance
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 4
+		relative_position_id = GOZ_seek_out_friends
+		prerequisite = { focus = GOZ_buy_out_echainaian_trust }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_seek_out_icrusian_debts
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = GOZ_seek_out_friends
+		prerequisite = { focus = GOZ_seek_out_friends }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_rifiord_talks
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 2
+		relative_position_id = GOZ_seek_out_friends
+		prerequisite = { focus = GOZ_seek_out_icrusian_debts }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_sign_a_formal_contract
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 3
+		relative_position_id = GOZ_seek_out_friends
+		prerequisite = { focus = GOZ_rifiord_talks }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_join_the_icrusian_league
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 4
+		relative_position_id = GOZ_seek_out_friends
+		prerequisite = { focus = GOZ_sign_a_formal_contract }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_coeerce_airestonia
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 1
+		relative_position_id = GOZ_seek_out_friends
+		prerequisite = { focus = GOZ_seek_out_friends }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_bribe_airestonian_diplomats
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 2
+		relative_position_id = GOZ_seek_out_friends
+		prerequisite = { focus = GOZ_coeerce_airestonia }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_build_a_dependence
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 3
+		relative_position_id = GOZ_seek_out_friends
+		prerequisite = { focus = GOZ_bribe_airestonian_diplomats }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_mutual_defence_pact
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 4
+		relative_position_id = GOZ_seek_out_friends
+		prerequisite = { focus = GOZ_build_a_dependence }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = GOZ_best_friends_forever
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 5
+		relative_position_id = GOZ_seek_out_friends
+		prerequisite = { focus = GOZ_mutual_defence_pact }
+		prerequisite = { focus = GOZ_join_the_icrusian_league }
+		prerequisite = { focus = GOZ_ignite_the_great_northern_alliance }
+		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+	
+}		
+
+
