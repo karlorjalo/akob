@@ -11,9 +11,10 @@
  TST_democratic_ADJ:0 "Test Country"
  TST_neutrality_ADJ:0 "Test Country"
  TST_communism_ADJ:0 "Test Country"
- AGR_neutrality:0 "Agra"
- ARS_neutrality:0 "Kingdom of Airestonia"
- ICR_neutrality:0 "Icrusian Empire"
+ #####
+ AGR_communism:0 "Agra"
+ ARS_fascism:0 "Kingdom of Airestonia"
+ ICR_fascism:0 "Icrusian Empire"
  TRB_neutrality:0 "Trubian Confederacy"
  EFR_neutrality:0 "Kingdom of Efror"
  ARB_neutrality:0 "The Arbiters"
