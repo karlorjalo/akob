@@ -1,6 +1,68 @@
 spriteTypes = {	
 
 	SpriteType = {
+	name = "GFX_goal_rediscover_magic"
+	texturefile = "gfx/interface/goals/goal_rediscover_magic.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_triad_magic_group"
+	texturefile = "gfx/interface/goals/goal_triad_magic_group.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_torgyr_spy_company"
+	texturefile = "gfx/interface/goals/goal_torgyr_spy_company.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_infiltration"
+	texturefile = "gfx/interface/goals/goal_infiltration.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_spies"
+	texturefile = "gfx/interface/goals/goal_spies.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_raining_shells"
+	texturefile = "gfx/interface/goals/goal_raining_shells.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_working_hours"
+	texturefile = "gfx/interface/goals/goal_working_hours.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_devalue_currency"
+	texturefile = "gfx/interface/goals/goal_devalue_currency.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_economic_bubble"
+	texturefile = "gfx/interface/goals/goal_economic_bubble.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_increase_budget"
+	texturefile = "gfx/interface/goals/goal_increase_budget.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_pay_out_military"
+	texturefile = "gfx/interface/goals/goal_pay_out_military.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_increase_military_pay"
+	texturefile = "gfx/interface/goals/goal_increase_military_pay.dds"			
+	}	
+	
+	#Airestonia
+	
+	SpriteType = {
 	name = "GFX_goal_invest_in_south"
 	texturefile = "gfx/interface/goals/goal_invest_in_south.dds"			
 	}	

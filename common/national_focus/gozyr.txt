@@ -23,7 +23,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_call_the_51st_congress_of_the_federation
-		icon = GFX_focus_renounce_the_treaty_of_trianon
+		icon = GFX_goal_generic_demand_territory
 		x = 38.5
 		y = 0
 		#relative_position_id = AST_empower_the_workers
@@ -333,7 +333,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_fund_the_torgyr_spy_company
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_torgyr_spy_company
 		x = 0
 		y = 5
 		relative_position_id = GOZ_the_eagle_preys_upon_us
@@ -426,7 +426,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_spies_in_high_places
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_spies
 		x = -2
 		y = 8
 		relative_position_id = GOZ_the_eagle_preys_upon_us
@@ -831,7 +831,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_buy_back_our_lands
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_pay_out_military
 		x = -2
 		y = 8
 		relative_position_id = GOZ_fear_the_second_empire
@@ -924,7 +924,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_icrusian_money_making_machine
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_increase_military_pay
 		x = 0
 		y = 8
 		relative_position_id = GOZ_fear_the_second_empire
@@ -1017,7 +1017,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_infiltrate_airestonian_walls
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_infiltration
 		x = 2
 		y = 2
 		relative_position_id = GOZ_fear_the_second_empire
@@ -1141,7 +1141,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_boost_the_spy_network
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_spies
 		x = 2
 		y = 6
 		relative_position_id = GOZ_fear_the_second_empire
@@ -1205,7 +1205,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_we_have_a_army
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_generic_defence
 		x = 50
 		y = 2
 		#relative_position_id = GOZ_call_the_51st_congress_of_the_federation
@@ -1236,7 +1236,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_start_from_the_ground_up
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_secret_rearmament
 		x = 0
 		y = 1
 		relative_position_id = GOZ_we_have_a_army
@@ -1360,7 +1360,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_set_up_the_frontline_donation_fund
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_generic_self_management
 		x = -2
 		y = 3
 		relative_position_id = GOZ_initiate_the_first_recruitment_drive
@@ -1453,7 +1453,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_little_man_shows
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_generic_propaganda
 		x = 0
 		y = 3
 		relative_position_id = GOZ_initiate_the_first_recruitment_drive
@@ -1484,7 +1484,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_open_the_rshavesk_heroes_memorial
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_generic_military_deal
 		x = 2
 		y = 3
 		relative_position_id = GOZ_initiate_the_first_recruitment_drive
@@ -1701,7 +1701,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_study_into_mage_warfare
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_research
 		x = -3
 		y = 1
 		relative_position_id = GOZ_form_a_war_comittee
@@ -1732,7 +1732,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_rediscover_magic
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_rediscover_magic
 		x = -3
 		y = 2
 		relative_position_id = GOZ_form_a_war_comittee
@@ -1763,7 +1763,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_start_the_univeristy_for_arcanic_thought
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_generic_military_academy
 		x = -3
 		y = 3
 		relative_position_id = GOZ_form_a_war_comittee
@@ -1794,7 +1794,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_invest_into_the_triad_mage_group
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_triad_magic_group
 		x = -3
 		y = 4
 		relative_position_id = GOZ_form_a_war_comittee
@@ -1825,7 +1825,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_widen_the_mage_acceptance_pool
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_generic_national_unity
 		x = -3
 		y = 5
 		relative_position_id = GOZ_form_a_war_comittee
@@ -1856,7 +1856,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_fund_new_armaments_research_centres
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_tfv_generic_tech_sharing
 		x = 2
 		y = 1
 		relative_position_id = GOZ_form_a_war_comittee
@@ -1980,7 +1980,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_shell_our_way_to_success
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_raining_shells
 		x = -1
 		y = 5
 		relative_position_id = GOZ_form_a_war_comittee
@@ -2042,7 +2042,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_buy_support_equipment_patents
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_generic_military_sphere 
 		x = 3
 		y = 2
 		relative_position_id = GOZ_form_a_war_comittee
@@ -2073,7 +2073,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_study_elite_troop_tactics
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_generic_defeat_in_detail
 		x = 2
 		y = 3
 		relative_position_id = GOZ_form_a_war_comittee
@@ -2105,7 +2105,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_invest_in_hukima_gunworks
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_mjuwda_gunworks
 		x = 2
 		y = 4
 		relative_position_id = GOZ_form_a_war_comittee
@@ -2198,7 +2198,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_fund_the_trench_war_horse_group
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_generic_cavalry
 		x = 5
 		y = 3
 		relative_position_id = GOZ_form_a_war_comittee
@@ -2229,7 +2229,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_faster_than_light
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_generic_CAS
 		x = 4
 		y = 4
 		relative_position_id = GOZ_form_a_war_comittee
@@ -2260,7 +2260,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_rolling_thunder
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_eng_organise_the_blackshirts
 		x = 6
 		y = 4
 		relative_position_id = GOZ_form_a_war_comittee
@@ -2477,7 +2477,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_establish_unemployed_working_companies
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_generic_forceful_treaty
 		x = -2
 		y = 5
 		relative_position_id = GOZ_war_promotion_comission
@@ -2508,7 +2508,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_recruit_foreign_labour
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_generic_intelligence_exchange
 		x = -2
 		y = 6
 		relative_position_id = GOZ_war_promotion_comission
@@ -2539,7 +2539,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_woman_in_the_workforce
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_generic_improve_relations
 		x = -2
 		y = 7
 		relative_position_id = GOZ_war_promotion_comission
@@ -2601,7 +2601,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_increase_working_hours
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_working_hours
 		x = 0
 		y = 4
 		relative_position_id = GOZ_war_promotion_comission
@@ -2663,7 +2663,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_set_higher_quotas
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_generic_consumer_goods
 		x = 0
 		y = 6
 		relative_position_id = GOZ_war_promotion_comission
@@ -2694,7 +2694,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_land_requisition_plan
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_renounce_the_treaty_of_trianon
 		x = 0
 		y = 7
 		relative_position_id = GOZ_war_promotion_comission
@@ -2725,7 +2725,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_erase_bureaucracy
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_generic_self_management
 		x = 0
 		y = 8
 		relative_position_id = GOZ_war_promotion_comission
@@ -2787,7 +2787,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_convert_consumer_factories
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_generic_consumer_goods
 		x = 2
 		y = 4
 		relative_position_id = GOZ_war_promotion_comission
@@ -2849,7 +2849,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_set_up_the_work_enforcement_group
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_generic_national_unity
 		x = 2
 		y = 6
 		relative_position_id = GOZ_war_promotion_comission
@@ -2942,12 +2942,11 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_prosperity
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_increase_budget
 		x = 0
 		y = 9
 		relative_position_id = GOZ_war_promotion_comission
-		prerequisite = { focus = GOZ_rshavesk_central_hub OR = GOZ_erase_bureaucracy }
-		prerequisite = { focus = GOZ_massive_factory_expansions }
+		prerequisite = { focus = GOZ_rshavesk_central_hub OR = GOZ_erase_bureaucracy OR = GOZ_massive_factory_expansions }
 		#mutually_exclusive = {focus = ARS_pay_your_dues }
 		available = {
 
@@ -2976,7 +2975,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_economy_above_all
-		icon = GFX_goal_generic_icrusia_at_war
+		icon = GFX_goal_generic_positive_trade_relations
 		x = 71.5
 		y = 0
 		#relative_position_id = AST_empower_the_workers
@@ -3007,7 +3006,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_burst_the_economic_bubble
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_economic_bubble
 		x = 67
 		y = 1
 		#relative_position_id = GOZ_war_promotion_comission
@@ -3038,7 +3037,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_bail_out_failing_banks
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_pay_out_military
 		x = -2
 		y = 1
 		relative_position_id = GOZ_burst_the_economic_bubble
@@ -3069,7 +3068,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_devalue_the_currency
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_devalue_currency
 		x = 0
 		y = 1
 		relative_position_id = GOZ_burst_the_economic_bubble
@@ -3100,7 +3099,7 @@ focus_tree = {
 	
 	focus = {
 		id = GOZ_subsidise_suffering_businesses
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_generic_intelligence_exchange
 		x = 2
 		y = 1
 		relative_position_id = GOZ_burst_the_economic_bubble
@@ -3131,7 +3130,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_get_bang_for_our_buck
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_generic_dangerous_deal
 		x = -2
 		y = 2
 		relative_position_id = GOZ_burst_the_economic_bubble
@@ -3164,7 +3163,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_subsidies_the_big_2
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_generic_diplomatic_treaty
 		x = -2
 		y = 3
 		relative_position_id = GOZ_burst_the_economic_bubble
@@ -3195,7 +3194,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_grand_business_protection_law
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_generic_forceful_treaty
 		x = -3
 		y = 4
 		relative_position_id = GOZ_burst_the_economic_bubble
@@ -3289,7 +3288,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_give_out_new_contracts
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_renounce_the_treaty_of_trianon
 		x = -2
 		y = 6
 		relative_position_id = GOZ_burst_the_economic_bubble
@@ -3384,7 +3383,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_break_up_the_big_2
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_generic_demand_territory
 		x = 2
 		y = 3
 		relative_position_id = GOZ_burst_the_economic_bubble
@@ -3446,7 +3445,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_work_safety_classifications
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
 		x = 1
 		y = 5
 		relative_position_id = GOZ_burst_the_economic_bubble
@@ -3508,7 +3507,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_build_up_the_hitrovro_trust_fund
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_generic_improve_relations
 		x = 3
 		y = 5
 		relative_position_id = GOZ_burst_the_economic_bubble
@@ -3695,7 +3694,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_build_new_schools
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_tfv_generic_tech_sharing
 		x = -3
 		y = 4
 		relative_position_id = GOZ_forward-looking_economy
@@ -3757,7 +3756,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_expand_the_univesirty_of_rshavesk 
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_generic_scientific_exchange
 		x = -3
 		y = 6
 		relative_position_id = GOZ_forward-looking_economy
@@ -3850,7 +3849,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_increase_congress_budgets
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_increase_budget
 		x = -1
 		y = 5
 		relative_position_id = GOZ_forward-looking_economy
@@ -3881,7 +3880,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_pay_politicians_more
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_increase_military_pay
 		x = -1
 		y = 6
 		relative_position_id = GOZ_forward-looking_economy
@@ -4099,7 +4098,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_synthetic_productions
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_generic_industry_1
 		x = 2
 		y = 5
 		relative_position_id = GOZ_forward-looking_economy
@@ -4131,7 +4130,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_advanced_industrial_methods
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_generic_production2
 		x = 2
 		y = 6
 		relative_position_id = GOZ_forward-looking_economy
@@ -4224,7 +4223,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_protect_our_pockets
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_generic_strike_at_democracy1
 		x = -4.5
 		y = 9
 		relative_position_id = GOZ_forward-looking_economy
@@ -4256,7 +4255,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_redevelop_the_defence_force
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_generic_little_entente
 		x = 68
 		y = 11
 		#relative_position_id = GOZ_forward-looking_economy
@@ -4287,7 +4286,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_pay_foreign_military_experts
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_generic_military_mission
 		x = -2
 		y = 1
 		relative_position_id = GOZ_redevelop_the_defence_force
@@ -4318,7 +4317,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_promote_rising_generals
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_generic_military_academy
 		x = -2
 		y = 2
 		relative_position_id = GOZ_redevelop_the_defence_force
@@ -4349,7 +4348,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_increase_military_pay
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_increase_military_pay
 		x = -2
 		y = 3
 		relative_position_id = GOZ_redevelop_the_defence_force
@@ -4380,7 +4379,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_hire_mercenaries
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_generic_attack_allies
 		x = -2
 		y = 4
 		relative_position_id = GOZ_redevelop_the_defence_force
@@ -4411,7 +4410,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_re-equip_the_military
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_secret_rearmament
 		x = 0
 		y = 1
 		relative_position_id = GOZ_redevelop_the_defence_force
@@ -4442,7 +4441,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_increase_military_budget
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_generic_self_management
 		x = 0
 		y = 2
 		relative_position_id = GOZ_redevelop_the_defence_force
@@ -4473,7 +4472,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_war_subsidies_act
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_generic_treaty
 		x = 0
 		y = 3
 		relative_position_id = GOZ_redevelop_the_defence_force
@@ -4504,7 +4503,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_buy_more_guns
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_generic_small_arms
 		x = 0
 		y = 4
 		relative_position_id = GOZ_redevelop_the_defence_force
@@ -4535,7 +4534,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_repurpose_media_groups
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_generic_dangerous_deal
 		x = 2
 		y = 1
 		relative_position_id = GOZ_redevelop_the_defence_force
@@ -4566,7 +4565,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_propaganda_for_hire
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_generic_propaganda
 		x = 2
 		y = 2
 		relative_position_id = GOZ_redevelop_the_defence_force
@@ -4597,7 +4596,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_set_up_the_media_crafts_corporation
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_generic_forceful_treaty
 		x = 2
 		y = 3
 		relative_position_id = GOZ_redevelop_the_defence_force
@@ -4628,7 +4627,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_heroes_on_the_frontline
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_generic_military_sphere
 		x = 2
 		y = 4
 		relative_position_id = GOZ_redevelop_the_defence_force
@@ -4692,7 +4691,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_seek_out_friends
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_generic_diplomatic_treaty
 		x = 75
 		y = 11
 		#relative_position_id = GOZ_forward-looking_economy
@@ -4723,7 +4722,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_deal_with_the_echainaians
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_generic_demand_territory
 		x = -2
 		y = 1
 		relative_position_id = GOZ_seek_out_friends
@@ -4754,7 +4753,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_form_the_great_lakes_union
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_generic_national_unity
 		x = -2
 		y = 2
 		relative_position_id = GOZ_seek_out_friends
@@ -4785,7 +4784,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_buy_out_echainaian_trust
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_pay_out_military
 		x = -2
 		y = 3
 		relative_position_id = GOZ_seek_out_friends
@@ -4816,7 +4815,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_ignite_the_great_northern_alliance
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_generic_political_pressure
 		x = -2
 		y = 4
 		relative_position_id = GOZ_seek_out_friends
@@ -4847,7 +4846,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_seek_out_icrusian_debts
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
 		x = 0
 		y = 1
 		relative_position_id = GOZ_seek_out_friends
@@ -4878,7 +4877,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_rifiord_talks
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_generic_dangerous_deal
 		x = 0
 		y = 2
 		relative_position_id = GOZ_seek_out_friends
@@ -4909,7 +4908,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_sign_a_formal_contract
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_generic_treaty
 		x = 0
 		y = 3
 		relative_position_id = GOZ_seek_out_friends
@@ -4940,7 +4939,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_join_the_icrusian_league
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_eng_move_to_secure_the_dominions
 		x = 0
 		y = 4
 		relative_position_id = GOZ_seek_out_friends
@@ -4971,7 +4970,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_coeerce_airestonia
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_generic_occupy_states_ongoing_war
 		x = 2
 		y = 1
 		relative_position_id = GOZ_seek_out_friends
@@ -5002,7 +5001,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_bribe_airestonian_diplomats
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_generic_intelligence_exchange
 		x = 2
 		y = 2
 		relative_position_id = GOZ_seek_out_friends
@@ -5033,7 +5032,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_build_a_dependence
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_generic_improve_relations
 		x = 2
 		y = 3
 		relative_position_id = GOZ_seek_out_friends
@@ -5064,7 +5063,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_mutual_defence_pact
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_generic_alliance
 		x = 2
 		y = 4
 		relative_position_id = GOZ_seek_out_friends
@@ -5095,7 +5094,7 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_best_friends_forever
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_generic_military_deal
 		x = 0
 		y = 5
 		relative_position_id = GOZ_seek_out_friends
