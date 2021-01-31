@@ -1,6 +1,84 @@
 spriteTypes = {	
 
 	SpriteType = {
+	name = "GFX_goal_focus_on_cavalry"
+	texturefile = "gfx/interface/goals/goal_focus_on_cavalry.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_undetectable"
+	texturefile = "gfx/interface/goals/goal_undetectable.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_contagious"
+	texturefile = "gfx/interface/goals/goal_contagious.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_survivability"
+	texturefile = "gfx/interface/goals/goal_survivability.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_biohazard2"
+	texturefile = "gfx/interface/goals/goal_biohazard2.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_biohazard"
+	texturefile = "gfx/interface/goals/goal_biohazard.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_map"
+	texturefile = "gfx/interface/goals/goal_map.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_new_medical_gear"
+	texturefile = "gfx/interface/goals/goal_new_medical_gear.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_improved_infrastructure"
+	texturefile = "gfx/interface/goals/goal_improved_infrastructure.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_ring_road"
+	texturefile = "gfx/interface/goals/goal_ring_road.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_old_building"
+	texturefile = "gfx/interface/goals/goal_old_building.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_new_building"
+	texturefile = "gfx/interface/goals/goal_new_building.dds"			
+	}	
+
+#ilidea
+	SpriteType = {
+	name = "GFX_goal_move_palace"
+	texturefile = "gfx/interface/goals/goal_move_palace.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_celebrations"
+	texturefile = "gfx/interface/goals/goal_celebrations.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_black_dragon_resistance"
+	texturefile = "gfx/interface/goals/goal_black_dragon_resistance.dds"			
+	}	
+
+#Gozyr
+
+	SpriteType = {
 	name = "GFX_goal_rediscover_magic"
 	texturefile = "gfx/interface/goals/goal_rediscover_magic.dds"			
 	}	

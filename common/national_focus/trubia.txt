@@ -1,0 +1,3827 @@
+focus_tree = {
+	id = trubian_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = TRB
+
+		}
+
+		#modifier = {
+		#	add = 10
+		#	original_tag = AST
+		#	has_dlc = "Together for Victory"
+		#}
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 0 y = 2000 }
+
+focus = {
+id = TRB_oh_astrigan
+x = 38
+y = 1
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = AST_workers_paradise }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_remembrance_day
+x = 36
+y = 2
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_oh_astrigan }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_victory_at_last
+x = 38
+y = 2
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_oh_astrigan }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_peace_bestowned_upon_us
+x = 40
+y = 2
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_oh_astrigan }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_plunder_efror_lands
+x = 37
+y = 3
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_oh_astrigan }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_leave_them_alone
+x = 39
+y = 3
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_oh_astrigan }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_lessons_of_war
+x = 38
+y = 4
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_remembrance_day }
+prerequisite = { focus = TRB_plunder_efror_lands }
+prerequisite = { focus = TRB_victory_at_last }
+prerequisite = { focus = TRB_leave_them_alone }
+prerequisite = { focus = TRB_peace_bestowned_upon_us }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_improvement_from_other_means
+x = 11.5
+y = 5
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_lessons_of_war }
+mutually_exclusive = {focus = TRB_reform_the_army }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_reform_the_army
+x = 37.5
+y = 5
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_lessons_of_war }
+mutually_exclusive = {focus = TRB_improvement_from_other_means }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_new_lands_to_the_empire
+x = 56
+y = 5
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_lessons_of_war }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_drug_experimental_labs
+x = 11.5
+y = 6
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_improvement_from_other_means }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_create_national_youth_military_groups
+x = 30
+y = 6
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_reform_the_army }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_retire_less_talented_generals
+x = 32
+y = 6
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_reform_the_army }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_modernise_our_guns
+x = 43
+y = 6
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_reform_the_army }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_space_for_our_people
+x = 50
+y = 6
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_new_lands_to_the_empire }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_not_our_people
+x = 56
+y = 6
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_new_lands_to_the_empire }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_efror_industry
+x = 62
+y = 6
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_new_lands_to_the_empire }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_promote_homemade_products
+x = 2
+y = 7
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_drug_experimental_labs }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_make_our_researchers_high
+x = 8
+y = 7
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_drug_experimental_labs }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_give_our_generals_a_spark
+x = 15
+y = 7
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_drug_experimental_labs }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_new_lifeline_for_our_troops
+x = 22
+y = 7
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_drug_experimental_labs }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_military_influence_in_schools
+x = 30
+y = 7
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_create_national_youth_military_groups }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_train_new_generals
+x = 32
+y = 7
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_retire_less_talented_generals }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_standardise_military_equipment
+x = 43
+y = 7
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_modernise_our_guns }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_land_for_the_people
+x = 49
+y = 7
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_space_for_our_people }
+mutually_exclusive = {focus = TRB_land_for_industry }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_land_for_industry
+x = 51
+y = 7
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_space_for_our_people }
+mutually_exclusive = {focus = TRB_land_for_the_people }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_seek_assimilation
+x = 54
+y = 7
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_not_our_people }
+mutually_exclusive = {focus = TRB_seek_peace }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_seek_peace
+x = 57
+y = 7
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_not_our_people }
+mutually_exclusive = {focus = TRB_seek_assimilation }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_learn_from_efror_designs
+x = 62
+y = 7
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_efror_industry }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_increased_work_productivity
+x = 2
+y = 8
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_promote_homemade_products }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_new_research_findings
+x = 8
+y = 8
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_make_our_researchers_high }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_unforseen_attacks
+x = 15
+y = 8
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_give_our_generals_a_spark }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_give_our_troops_iron_shavings
+x = 21
+y = 8
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_new_lifeline_for_our_troops }
+mutually_exclusive = {focus = TRB_give_our_troops_rose_petals }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_give_our_troops_rose_petals
+x = 23
+y = 8
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_new_lifeline_for_our_troops }
+mutually_exclusive = {focus = TRB_give_our_troops_iron_shavings }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_lower_the_conscription_age
+x = 30
+y = 8
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_military_influence_in_schools }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_enforce_meritocracy
+x = 32
+y = 8
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_train_new_generals }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_study_icrusian_designs
+x = 43
+y = 8
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_standardise_military_equipment }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_build_entertainment_centres
+x = 49
+y = 8
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_land_for_the_people }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_build_the_trubian_bank_foundation
+x = 51
+y = 8
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_land_for_industry }
+#mutually_exclusive = {focus = TRB_land_for_industry }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_forceful_integration
+x = 54
+y = 8
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_seek_assimilation }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_propose_new_citizenship_measures
+x = 56
+y = 8
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_seek_peace }
+mutually_exclusive = {focus = TRB_sub_level_citizens }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_sub_level_citizens
+x = 58
+y = 8
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_seek_peace }
+mutually_exclusive = {focus = TRB_propose_new_citizenship_measures }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_keep_efror_equipment_in_place
+x = 61
+y = 8
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_learn_from_efror_designs }
+mutually_exclusive = {focus = TRB_move_it_to_trubia }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_move_it_to_trubia
+x = 63
+y = 8
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_learn_from_efror_designs }
+mutually_exclusive = {focus = TRB_keep_efror_equipment_in_place }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+focus = {
+id = TRB_subsidise_gekken_bark_powder
+x = 1
+y = 9
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_increased_work_productivity }
+mutually_exclusive = {focus = TRB_provide_the_people_with_iron_shavings }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_provide_the_people_with_iron_shavings
+x = 3
+y = 9
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_increased_work_productivity }
+mutually_exclusive = {focus = TRB_subsidise_gekken_bark_powder }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_open_our_third_eye
+x = 6
+y = 9
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_new_research_findings }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_pour_all_newfound_energy_into_further_research
+x = 8
+y = 9
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_new_research_findings }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_discover_new_technologies
+x = 10
+y = 9
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_new_research_findings }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_some_sort_of_army_experience
+x = 15
+y = 9
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_unforseen_attacks }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_superhuman_sharpshooters
+x = 21
+y = 9
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_give_our_troops_iron_shavings }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_running_at_lightspeed
+x = 23
+y = 9
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_give_our_troops_rose_petals }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_shore_up_support
+x = 27
+y = 9
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_lower_the_conscription_age OR = TRB_enforce_meritocracy }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_young_promising_generals
+x = 31
+y = 9
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_lower_the_conscription_age OR = TRB_enforce_meritocracy }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_invite_respected_armaments_researchers
+x = 36
+y = 9
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_lower_the_conscription_age OR = TRB_enforce_meritocracy }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_create_new_cavalry_equipment
+x = 40
+y = 9
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_study_icrusian_designs }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_research_improved_rifle_models
+x = 42
+y = 9
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_study_icrusian_designs }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_incoporate_airestonian_artillery_designs
+x = 44
+y = 9
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_study_icrusian_designs }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_innovate_new_mage_skills
+x = 46
+y = 9
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_study_icrusian_designs }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_create_new_housing_estates
+x = 49
+y = 9
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_build_entertainment_centres }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_build_new_roads_to_the_east
+x = 51
+y = 9
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_build_the_trubian_bank_foundation }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_reformative_citizenship_work
+x = 54
+y = 9
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_forceful_integration }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_introduce_our_culture
+x = 56
+y = 9
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_propose_new_citizenship_measures }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_exploit_the_people
+x = 58
+y = 9
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_sub_level_citizens }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_enhance_efror_infrastructure
+x = 62
+y = 9
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_keep_efror_equipment_in_place OR = TRB_move_it_to_trubia }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_improve_the_gekken_extraction_process
+x = 1
+y = 10
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_subsidise_gekken_bark_powder }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_mine_more_iron
+x = 3
+y = 10
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_provide_the_people_with_iron_shavings }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_discover_the_spirit
+x = 7
+y = 10
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_open_our_third_eye }
+prerequisite = { focus = TRB_pour_all_newfound_energy_into_further_research }
+mutually_exclusive = {focus = TRB_colorful_experiments }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_colorful_experiments
+x = 9
+y = 10
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_discover_new_technologies }
+prerequisite = { focus = TRB_pour_all_newfound_energy_into_further_research }
+mutually_exclusive = {focus = TRB_discover_the_spirit }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_insane_cavalry_doctrines
+x = 13
+y = 10
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_some_sort_of_army_experience }
+mutually_exclusive = {focus = TRB_bunker_paranoia }
+mutually_exclusive = {focus = TRB_crazy_artillery_doctrines }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_crazy_artillery_doctrines
+x = 15
+y = 10
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_some_sort_of_army_experience }
+mutually_exclusive = {focus = TRB_insane_cavalry_doctrines }
+mutually_exclusive = {focus = TRB_bunker_paranoia }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_bunker_paranoia
+x = 17
+y = 10
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_some_sort_of_army_experience }
+mutually_exclusive = {focus = TRB_insane_cavalry_doctrines }
+mutually_exclusive = {focus = TRB_crazy_artillery_doctrines }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_minimise_side_effects
+x = 21
+y = 10
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_superhuman_sharpshooters }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_increase_smoking_efficiency
+x = 23
+y = 10
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_running_at_lightspeed }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_birth_benefits
+x = 27
+y = 10
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_shore_up_support }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_damensh_artillery_warfare
+x = 29
+y = 10
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_young_promising_generals }
+mutually_exclusive = {focus = TRB_jacyem_lightning_warfare }
+mutually_exclusive = {focus = TRB_trens_defensive_warfare }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_jacyem_lightning_warfare
+x = 31
+y = 10
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_young_promising_generals OR = TRB_jacyem_lightning_warfare }
+mutually_exclusive = {focus = TRB_damensh_artillery_warfare }
+mutually_exclusive = {focus = TRB_trens_defensive_warfare }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_trens_defensive_warfare
+x = 33
+y = 10
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_young_promising_generals }
+mutually_exclusive = {focus = TRB_jacyem_lightning_warfare }
+mutually_exclusive = {focus = TRB_damensh_artillery_warfare }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_educate_the_population
+x = 35
+y = 10
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_invite_respected_armaments_researchers }
+mutually_exclusive = {focus = TRB_make_bright_minds_brighter }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_make_bright_minds_brighter
+x = 37
+y = 10
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_invite_respected_armaments_researchers }
+mutually_exclusive = {focus = TRB_educate_the_population }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_cuirassier_improvements
+x = 41
+y = 10
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_research_improved_rifle_models }
+prerequisite = { focus = TRB_create_new_cavalry_equipment }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_all_guns_research
+x = 43
+y = 10
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_incoporate_airestonian_artillery_designs }
+prerequisite = { focus = TRB_research_improved_rifle_models }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_magic_and_brimstone
+x = 45
+y = 10
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_incoporate_airestonian_artillery_designs }
+prerequisite = { focus = TRB_innovate_new_mage_skills }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_mega_infrastructure_projects
+x = 49
+y = 10
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_create_new_housing_estates }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_construct_new_city_centres
+x = 51
+y = 10
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_build_new_roads_to_the_east }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_brainwash_with_trubian_propaganda
+x = 54
+y = 10
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_reformative_citizenship_work }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_citizenship_benefits
+x = 56
+y = 10
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_introduce_our_culture }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_make_them_do_the_dirty_work
+x = 58
+y = 10
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_exploit_the_people }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_salvage_efror_machinery
+x = 61
+y = 10
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_enhance_efror_infrastructure }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_use_efror_machinery
+x = 63
+y = 10
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_enhance_efror_infrastructure }
+mutually_exclusive = {focus = TRB_salvage_efror_machinery }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+focus = {
+id = TRB_grow_more_gekken
+x = 1
+y = 11
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_improve_the_gekken_extraction_process }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_better_refined_iron_shavings
+x = 3
+y = 11
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_mine_more_iron }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_envision_our_future
+x = 7
+y = 11
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_discover_the_spirit }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_high_on_science
+x = 9
+y = 11
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_colorful_experiments }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_feed_the_horses_cash
+x = 13
+y = 11
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_insane_cavalry_doctrines }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_rain_tactics
+x = 15
+y = 11
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_crazy_artillery_doctrines }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_become_hermit
+x = 17
+y = 11
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_bunker_paranoia }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_unbreaking_focus
+x = 20
+y = 11
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_minimise_side_effects }
+mutually_exclusive = {focus = TRB_never_crawl_again }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_infinite_power
+x = 22
+y = 11
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_minimise_side_effects OR = TRB_increase_smoking_efficiency }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_never_crawl_again
+x = 24
+y = 11
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_increase_smoking_efficiency }
+mutually_exclusive = {focus = TRB_unbreaking_focus }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_enlistment_propaganda
+x = 27
+y = 11
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_birth_benefits }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_finance_further_doctrine_research
+x = 31
+y = 11
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_damensh_artillery_warfare OR = TRB_trens_defensive_warfare }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_build_schools_in_the_countryside
+x = 35
+y = 11
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_educate_the_population }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_build_the_north_university
+x = 37
+y = 11
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_make_bright_minds_brighter }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_mass_lancer_innovations
+x = 40
+y = 11
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_cuirassier_improvements }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_advanced_support_equipment
+x = 42
+y = 11
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_all_guns_research OR = TRB_cuirassier_improvements }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_strengthen_shell_power
+x = 44
+y = 11
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_magic_and_brimstone OR = TRB_all_guns_research }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_understand_the_power_of_arcanes
+x = 46
+y = 11
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_magic_and_brimstone }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_build_new_hospitals
+x = 49
+y = 11
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_mega_infrastructure_projects }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_create_grain_mills
+x = 51
+y = 11
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_construct_new_city_centres }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_anti_efror_propaganda
+x = 54
+y = 11
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_brainwash_with_trubian_propaganda }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_provide_a_transition_period
+x = 56
+y = 11
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_citizenship_benefits }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_imprison_the_irregularities
+x = 58
+y = 11
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_make_them_do_the_dirty_work }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_rename_the_birford_military_complex
+x = 62
+y = 11
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_salvage_efror_machinery OR = TRB_use_efror_machinery }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_natural_magic
+x = 1
+y = 12
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_grow_more_gekken }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_enhanced_magic
+x = 3
+y = 12
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_better_refined_iron_shavings }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_spiritual_awakening
+x = 7
+y = 12
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_envision_our_future }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_ground_ourselves_with_logic
+x = 9
+y = 12
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_high_on_science }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_military_high_command
+x = 15
+y = 12
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_become_hermit OR = TRB_rain_tactics OR = TRB_feed_the_horses_cash }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_non-discriminatory_practices
+x = 27
+y = 12
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_enlistment_propaganda }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_army_experience
+x = 31
+y = 12
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_finance_further_doctrine_research }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_compulsory_education
+x = 35
+y = 12
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_build_schools_in_the_countryside }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_higher_education_grants
+x = 37
+y = 12
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_build_the_north_university }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_lightning_warfare
+x = 40
+y = 12
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_mass_lancer_innovations }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_trust_in_the_riflemen
+x = 42
+y = 12
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_advanced_support_equipment }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_unending_barrage
+x = 44
+y = 12
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_strengthen_shell_power }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_make_them_cower
+x = 46
+y = 12
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_understand_the_power_of_arcanes }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_productive_new_land
+x = 50
+y = 12
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_build_new_hospitals OR = TRB_create_grain_mills }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_one_nation_for_one_people
+x = 54
+y = 12
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_anti_efror_propaganda }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_unity_in_diversity
+x = 56
+y = 12
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_provide_a_transition_period }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_know_your_place
+x = 58
+y = 12
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_imprison_the_irregularities }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_rebuild_the_navy
+x = 28
+y = 15
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_lessons_of_war }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_refill_the_treasury
+x = 38
+y = 15
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_lessons_of_war }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_plan_for_bigger_ships
+x = 26
+y = 16
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_rebuild_the_navy }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_increase_ship_building_facilities
+x = 28
+y = 16
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_rebuild_the_navy }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_build_more_dockyards
+x = 30
+y = 16
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_rebuild_the_navy }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_repopulate_the_farmlands
+x = 34
+y = 16
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_refill_the_treasury }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_expand_the_blecham_factories
+x = 40
+y = 16
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_refill_the_treasury }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_invent_new_cannonballs
+x = 27
+y = 17
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_plan_for_bigger_ships }
+prerequisite = { focus = TRB_increase_ship_building_facilities }
+prerequisite = { focus = TRB_build_more_dockyards }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_decrease_sinking_chances
+x = 29
+y = 17
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_plan_for_bigger_ships }
+prerequisite = { focus = TRB_increase_ship_building_facilities }
+prerequisite = { focus = TRB_build_more_dockyards }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_build_the_vaamo_canals
+x = 33
+y = 17
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_repopulate_the_farmlands }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_subsidise_the_bread_basket_of_trubia
+x = 35
+y = 17
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_repopulate_the_farmlands }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_use_improved_equipment
+x = 37
+y = 17
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_expand_the_blecham_factories }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_build_large_factories_in_the_countryside
+x = 39
+y = 17
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_expand_the_blecham_factories }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_standardise_the_factories
+x = 41
+y = 17
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_expand_the_blecham_factories }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_quality_inspections
+x = 43
+y = 17
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_expand_the_blecham_factories }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_new_naval_tactics
+x = 27
+y = 18
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_invent_new_cannonballs }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_forts_to_defend_the_long_shore
+x = 29
+y = 18
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_decrease_sinking_chances }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_grow_bigger_farms
+x = 33
+y = 18
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_build_the_vaamo_canals }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_improve_crop_yields
+x = 35
+y = 18
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_subsidise_the_bread_basket_of_trubia }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_use_new_machinery
+x = 38
+y = 18
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_build_large_factories_in_the_countryside }
+prerequisite = { focus = TRB_use_improved_equipment }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_further_industrialise_astrigan
+x = 40
+y = 18
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_build_large_factories_in_the_countryside }
+prerequisite = { focus = TRB_standardise_the_factories }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_factory_checkups
+x = 42
+y = 18
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_quality_inspections }
+prerequisite = { focus = TRB_standardise_the_factories }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_protection_from_land_and_sea
+x = 28
+y = 19
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_new_naval_tactics }
+prerequisite = { focus = TRB_forts_to_defend_the_long_shore }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_improve_farmer_life
+x = 34
+y = 19
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_grow_bigger_farms OR = TRB_improve_crop_yields }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_advanced_factory_machinery
+x = 38
+y = 19
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_use_new_machinery }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_improve_the_capital
+x = 40
+y = 19
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_further_industrialise_astrigan }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_build_new_headquarters
+x = 42
+y = 19
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_factory_checkups }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_finance_failing_banks
+x = 37
+y = 20
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_improve_farmer_life }
+prerequisite = { focus = TRB_advanced_factory_machinery OR = TRB_improve_the_capital OR = TRB_build_new_headquarters }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_repay_the_zeits_bank
+x = 39
+y = 20
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_improve_farmer_life }
+prerequisite = { focus = TRB_advanced_factory_machinery OR = TRB_improve_the_capital OR = TRB_build_new_headquarters }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_improve_the_economy
+x = 36
+y = 21
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_finance_failing_banks }
+prerequisite = { focus = TRB_repay_the_zeits_bank }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_invite_investors
+x = 38
+y = 21
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_finance_failing_banks }
+prerequisite = { focus = TRB_repay_the_zeits_bank }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_promote_tourism
+x = 40
+y = 21
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_finance_failing_banks }
+prerequisite = { focus = TRB_repay_the_zeits_bank }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_prepared_for_next_war
+x = 38
+y = 22
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_improve_the_economy }
+prerequisite = { focus = TRB_invite_investors }
+prerequisite = { focus = TRB_promote_tourism }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+	
+}		
+
+

@@ -1,0 +1,2196 @@
+focus_tree = {
+	id = echainaian_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ECH
+
+		}
+
+		#modifier = {
+		#	add = 10
+		#	original_tag = AST
+		#	has_dlc = "Together for Victory"
+		#}
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 0 y = 2000 }
+
+focus = {
+id = ECH_celebration_day
+
+x = 23
+y = 1
+icon = GFX_goal_celebrations
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = AST_workers_paradise }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_host_the_northern_gala
+
+x = 25
+y = 1
+icon = GFX_goal_move_palace
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = AST_workers_paradise }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_publish_the_biography
+
+x = 27
+y = 1
+icon = GFX_focus_generic_treaty
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = AST_workers_paradise }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_reinstate_the_iilidea_echainaian_trade_deal
+
+x = 24
+y = 2
+icon = GFX_goal_generic_improve_relations
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = AST_workers_paradise }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_bless_our_icrusian_friends
+
+x = 26
+y = 2
+icon = GFX_focus_generic_diplomatic_treaty
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = AST_workers_paradise }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_peace_for_another_century
+
+x = 25
+y = 3
+icon = GFX_goal_generic_national_unity
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_celebration_day }
+prerequisite = { focus = ECH_reinstate_the_iilidea_echainaian_trade_deal }
+prerequisite = { focus = ECH_host_the_northern_gala }
+prerequisite = { focus = ECH_bless_our_icrusian_friends }
+prerequisite = { focus = ECH_publish_the_biography }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_new_foreign_policy
+
+x = 15
+y = 4
+icon = GFX_goal_generic_forceful_treaty
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_peace_for_another_century }
+#mutually_exclusive = {focus = ECH_new_economic_plan }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_new_economic_plan
+
+x = 37
+y = 4
+icon = GFX_goal_generic_positive_trade_relations
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_peace_for_another_century }
+#mutually_exclusive = {focus = ECH_new_foreign_policy }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_deterrence
+
+x = 7
+y = 5
+icon = GFX_goal_generic_defence
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_new_foreign_policy }
+mutually_exclusive = {focus = ECH_the_unthinkable }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_the_unthinkable
+
+x = 24
+y = 5
+icon = GFX_goal_tfv_saf_anti_colonialist_crusade
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_new_foreign_policy }
+mutually_exclusive = {focus = ECH_deterrence }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_reignite_the_factory_works
+
+x = 37
+y = 5
+icon = GFX_goal_generic_production
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_new_economic_plan }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_make_allies
+
+x = 4
+y = 6
+icon = GFX_goal_generic_major_alliance
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_deterrence }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_a_strong_home_guard
+
+x = 11
+y = 6
+icon = GFX_focus_generic_home_defense
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_deterrence }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_end_of_the_world_resolution
+
+x = 24
+y = 6
+icon = GFX_goal_generic_secret_weapon
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_the_unthinkable }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_establish_the_king_coal_company
+
+x = 36
+y = 6
+icon = GFX_goal_generic_construction2
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_reignite_the_factory_works }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_infrastructure_projects
+
+x = 39
+y = 6
+icon = GFX_goal_generic_construct_infrastructure
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_reignite_the_factory_works }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_heal_old_wounds
+
+x = 2
+y = 7
+icon = GFX_goal_generic_dangerous_deal
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_make_allies }
+mutually_exclusive = {focus = ECH_call_upon_the_south }
+mutually_exclusive = {focus = ECH_strengthen_the_treaty_of_hitrovro }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_strengthen_the_treaty_of_hitrovro
+
+x = 5
+y = 7
+icon = GFX_focus_generic_treaty
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_make_allies }
+mutually_exclusive = {focus = ECH_heal_old_wounds }
+mutually_exclusive = {focus = ECH_call_upon_the_south }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_call_upon_the_south
+
+x = 7
+y = 7
+icon = GFX_focus_rom_royal_dictatorship
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_make_allies }
+mutually_exclusive = {focus = ECH_heal_old_wounds }
+mutually_exclusive = {focus = ECH_strengthen_the_treaty_of_hitrovro }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_improved_arms_designs
+
+x = 9
+y = 7
+icon = GFX_goal_generic_small_arms
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_a_strong_home_guard }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_increase_artillery_research_funding
+
+x = 11
+y = 7
+icon = GFX_goal_generic_army_artillery2
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_a_strong_home_guard }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_grand_cavalry_reform
+
+x = 13
+y = 7
+icon = GFX_goal_generic_cavalry_group
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_a_strong_home_guard }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_research_into_bioware
+
+x = 21
+y = 7
+icon = GFX_focus_research
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_end_of_the_world_resolution }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_fortify_the_borders
+
+x = 30
+y = 7
+icon = GFX_goal_generic_defence
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_end_of_the_world_resolution }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_fire_up_the_plants
+
+x = 35
+y = 7
+icon = GFX_focus_generic_industry_1
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_establish_the_king_coal_company }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_improved_mining_tools
+
+x = 37
+y = 7
+icon = GFX_goal_generic_production2
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_establish_the_king_coal_company }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_expand_the_dubutsk_military_centre
+
+x = 39
+y = 7
+icon = GFX_goal_generic_construct_civilian
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_infrastructure_projects }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_establish_the_northern_trade_deal
+
+x = 2
+y = 8
+icon = GFX_goal_pay_out_military
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_heal_old_wounds }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_the_start_of_a_formal_pact
+
+x = 5
+y = 8
+icon = GFX_goal_generic_alliance
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_strengthen_the_treaty_of_hitrovro }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_acknowledge_spheres_of_influence
+
+x = 7
+y = 8
+icon = GFX_goal_generic_military_sphere
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_call_upon_the_south }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_modernise_support_armaments
+
+x = 9
+y = 8
+icon = GFX_focus_secret_rearmament
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_improved_arms_designs }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_innovate_new_artillery_ideas
+
+x = 11
+y = 8
+icon = GFX_goal_generic_army_artillery
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_increase_artillery_research_funding }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_retire_older_cavalry_models
+
+x = 13
+y = 8
+icon = GFX_goal_generic_cavalry_advanced
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_grand_cavalry_reform }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_look_into_the_past_for_inspiration
+
+x = 21
+y = 8
+icon = GFX_goal_rediscover_magic
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_research_into_bioware }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_dig_northern_trenches
+
+x = 28
+y = 8.5
+icon = GFX_goal_generic_construction2
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_fortify_the_borders }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_build_high_walls
+
+x = 30
+y = 8.5
+icon = GFX_goal_generic_construct_civilian
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_fortify_the_borders }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_build_secure_forts
+
+x = 32
+y = 8.5
+icon = GFX_goal_generic_fortify_city
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_fortify_the_borders }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_the_largest_coal_exporter_in_the_world
+
+x = 36
+y = 8
+icon = GFX_goal_generic_trade
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_fire_up_the_plants }
+prerequisite = { focus = ECH_improved_mining_tools }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_build_more_industrial_centres
+
+x = 39
+y = 8
+icon = GFX_focus_generic_industry_2
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_expand_the_dubutsk_military_centre }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_provide_resources_to_gozyr
+
+x = 2
+y = 9
+icon = GFX_goal_generic_intelligence_exchange
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_establish_the_northern_trade_deal }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_trade_military_advisors
+
+x = 5
+y = 9
+icon = GFX_focus_generic_military_mission
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_the_start_of_a_formal_pact }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_naval_deal
+
+x = 7
+y = 9
+icon = GFX_goal_generic_amphibious_assault
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_acknowledge_spheres_of_influence }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_focus_on_man_with_arms
+
+x = 10
+y = 9
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_modernise_support_armaments }
+prerequisite = { focus = ECH_innovate_new_artillery_ideas }
+prerequisite = { focus = ECH_retire_older_cavalry_models }
+mutually_exclusive = {focus = ECH_focus_on_the_untamable_beasts }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_focus_on_the_untamable_beasts
+
+x = 12
+y = 9
+icon = GFX_goal_focus_on_cavalry
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_modernise_support_armaments }
+prerequisite = { focus = ECH_innovate_new_artillery_ideas }
+prerequisite = { focus = ECH_retire_older_cavalry_models }
+mutually_exclusive = {focus = ECH_focus_on_man_with_arms }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_start_virus_research
+
+x = 17
+y = 9
+icon = GFX_goal_tfv_generic_tech_sharing
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_look_into_the_past_for_inspiration }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_train_special_biomages
+
+x = 23
+y = 9
+icon = GFX_goal_generic_special_forces
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_look_into_the_past_for_inspiration }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_elaborate_trench_system
+
+x = 28
+y = 10
+icon = GFX_goal_generic_position_armies
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_dig_northern_trenches }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_build_killing_zones
+
+x = 30
+y = 10
+icon = GFX_goal_generic_major_war
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_build_high_walls }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_star_forts_everywhere
+
+x = 32
+y = 10
+icon = GFX_goal_generic_construct_military
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_build_secure_forts }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_invest_in_the_far_east
+
+x = 36
+y = 9
+icon = GFX_goal_increase_military_pay
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_the_largest_coal_exporter_in_the_world }
+prerequisite = { focus = ECH_build_more_industrial_centres }
+mutually_exclusive = {focus = ECH_invest_in_the_great_lakes }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_invest_in_the_great_lakes
+
+x = 38
+y = 9
+icon = GFX_goal_increase_military_pay
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_build_more_industrial_centres }
+prerequisite = { focus = ECH_the_largest_coal_exporter_in_the_world }
+mutually_exclusive = {focus = ECH_invest_in_the_far_east }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = ECH_greatly_improve_relations
+
+x = 5
+y = 10
+icon = GFX_goal_generic_improve_relations
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_trade_military_advisors }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_alliance_for_the_future
+
+x = 7
+y = 10
+icon = GFX_goal_generic_dangerous_deal
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_naval_deal }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_plan_out_our_every_move
+
+x = 9
+y = 10
+icon = GFX_goal_generic_build_tank
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_focus_on_man_with_arms }
+mutually_exclusive = {focus = ECH_let_the_hooves_roam }
+mutually_exclusive = {focus = ECH_the_art_of_compromise }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_the_art_of_compromise
+
+x = 11
+y = 10
+icon = GFX_focus_generic_support_the_left_right
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_focus_on_man_with_arms OR = ECH_focus_on_the_untamable_beasts }
+mutually_exclusive = {focus = ECH_let_the_hooves_roam }
+mutually_exclusive = {focus = ECH_plan_out_our_every_move }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_let_the_hooves_roam
+
+x = 13
+y = 10
+icon = GFX_goal_generic_cavalry
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_focus_on_the_untamable_beasts }
+mutually_exclusive = {focus = ECH_the_art_of_compromise }
+mutually_exclusive = {focus = ECH_plan_out_our_every_move }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_a_painful_end
+
+x = 16
+y = 10
+icon = GFX_focus_CZE_german_puppet
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_start_virus_research }
+mutually_exclusive = {focus = ECH_a_quick_end }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_a_quick_end
+
+x = 18
+y = 10
+icon = GFX_goal_generic_CAS
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_start_virus_research }
+mutually_exclusive = {focus = ECH_a_painful_end }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_innovate_new_medical_gear
+
+x = 21
+y = 10
+icon = GFX_goal_new_medical_gear
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_train_special_biomages }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_experiments_on_the_human_race
+
+x = 23
+y = 10
+icon = GFX_focus_CZE_german_puppet
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_train_special_biomages }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_our_little_secret
+
+x = 25
+y = 10
+icon = GFX_goal_infiltration
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_train_special_biomages }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_three_layered_defence
+
+x = 29
+y = 11.5
+icon = GFX_goal_map
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_elaborate_trench_system }
+prerequisite = { focus = ECH_build_killing_zones }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_not_one_step_back
+
+x = 31
+y = 11.5
+icon = GFX_goal_generic_occupy_states_ongoing_war
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_star_forts_everywhere }
+prerequisite = { focus = ECH_build_killing_zones }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_bring_the_roads_up_to_the_national_standard
+
+x = 36
+y = 10
+icon = GFX_goal_ring_road
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_invest_in_the_far_east }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_further_improve_the_infrastructure
+
+x = 38
+y = 10
+icon = GFX_goal_improved_infrastructure
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_invest_in_the_great_lakes }
+#mutually_exclusive = {focus = ECH_invest_in_the_great_lakes }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_sell_gozyr_lands
+
+x = 1
+y = 10
+icon = GFX_goal_increase_military_pay
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_provide_resources_to_gozyr }
+mutually_exclusive = {focus = ECH_trade_manpower_for_lands }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_trade_manpower_for_lands
+
+x = 3
+y = 10
+icon = GFX_goal_tripartite_pact
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_provide_resources_to_gozyr }
+mutually_exclusive = {focus = ECH_sell_gozyr_lands }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_sell_military_aid_to_gozyr
+
+x = 2
+y = 11
+icon = GFX_focus_generic_military_mission
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_sell_gozyr_lands OR = ECH_trade_manpower_for_lands}
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_form_the_great_powers_union
+
+x = 5
+y = 11
+icon = GFX_goal_generic_political_pressure
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_greatly_improve_relations }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_the_east_shall_be_ours
+
+x = 7
+y = 11
+icon = GFX_goal_generic_attack_allies
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_alliance_for_the_future }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_incoporate_icrusian_designs
+
+x = 9
+y = 11
+icon = GFX_goal_generic_position_armies
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_plan_out_our_every_move }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_combined_arms
+
+x = 11
+y = 11
+icon = GFX_goal_generic_military_deal
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_the_art_of_compromise }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_incoporate_trubian_cavalry
+
+x = 13
+y = 11
+icon = GFX_goal_generic_CAS
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_let_the_hooves_roam }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_make_it_hard_to_detect
+
+x = 17
+y = 11
+icon = GFX_goal_undetectable
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_a_painful_end OR = ECH_a_quick_end }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_create_magical_antibodies
+
+x = 20
+y = 11
+icon = GFX_focus_research2
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_innovate_new_medical_gear }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_create_a_new_us
+
+x = 22
+y = 11
+icon = GFX_goal_generic_scientific_exchange
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_innovate_new_medical_gear OR = ECH_experiments_on_the_human_race }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_spread_health_propaganda
+
+x = 24
+y = 11
+icon = GFX_goal_generic_propaganda
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_experiments_on_the_human_race OR = ECH_our_little_secret }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_silence_the_foreigners
+
+x = 26
+y = 11
+icon = GFX_goal_generic_more_territorial_claims
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_our_little_secret }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_the_national_unity_compromise
+
+x = 35
+y = 11
+icon = GFX_goal_generic_national_unity
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_bring_the_roads_up_to_the_national_standard OR = ECH_further_improve_the_infrastructure }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_draw_in_investors
+
+x = 37
+y = 11
+icon = GFX_goal_increase_budget
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_bring_the_roads_up_to_the_national_standard OR = ECH_further_improve_the_infrastructure }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_build_big_cities
+
+x = 39
+y = 11
+icon = GFX_goal_generic_construct_civ_factory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_bring_the_roads_up_to_the_national_standard OR = ECH_further_improve_the_infrastructure }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_great_defensive_battleplan
+
+x = 9
+y = 12
+icon = GFX_goal_generic_army_doctrines
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_incoporate_icrusian_designs }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_strike_with_both_fists
+
+x = 11
+y = 12
+icon = GFX_goal_generic_political_pressure
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_combined_arms }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_offense_is_the_best_defence
+
+x = 13
+y = 12
+icon = GFX_focus_eng_organise_the_blackshirts
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_incoporate_trubian_cavalry }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_increased_contagiousness
+
+x = 16
+y = 12
+icon = GFX_goal_contagious
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_make_it_hard_to_detect }
+mutually_exclusive = {focus = ECH_virus_survivability }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_virus_survivability
+
+x = 18
+y = 12
+icon = GFX_goal_survivability
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_make_it_hard_to_detect }
+mutually_exclusive = {focus = ECH_increased_contagiousness }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_new_found_resilience
+
+x = 21
+y = 12
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_create_magical_antibodies OR = ECH_create_a_new_us }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_blood_for_the_blood_god
+
+x = 23
+y = 12
+icon = GFX_goal_generic_major_war
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_create_a_new_us OR = ECH_spread_health_propaganda }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_mass_amnestisation
+
+x = 25
+y = 12
+icon = GFX_goal_arrest_without_trial
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_spread_health_propaganda OR = ECH_silence_the_foreigners }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_keep_the_old_capital
+
+x = 36
+y = 12
+icon = GFX_goal_old_building
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_the_national_unity_compromise }
+prerequisite = { focus = ECH_draw_in_investors }
+prerequisite = { focus = ECH_build_big_cities }
+mutually_exclusive = {focus = ECH_move_the_capital_away }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_move_the_capital_away
+
+x = 38
+y = 12
+icon = GFX_goal_new_building
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_the_national_unity_compromise }
+prerequisite = { focus = ECH_draw_in_investors }
+prerequisite = { focus = ECH_build_big_cities }
+mutually_exclusive = {focus = ECH_keep_the_old_capital }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_finish_up_our_murder_weapon
+
+x = 17
+y = 13
+icon = GFX_goal_biohazard2
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_increased_contagiousness OR = ECH_virus_survivability }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = ECH_start_world_domination
+
+x = 21
+y = 14
+icon = GFX_goal_generic_occupy_states_ongoing_war
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = ECH_finish_up_our_murder_weapon }
+prerequisite = { focus = ECH_new_found_resilience OR = ECH_blood_for_the_blood_god OR = ECH_mass_amnestisation }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+
+
+
+	
+	
+}		
+
+
