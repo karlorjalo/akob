@@ -1,6 +1,44 @@
 spriteTypes = {	
 
 	SpriteType = {
+	name = "GFX_goal_oh_astrigan"
+	texturefile = "gfx/interface/goals/goal_oh_astrigan.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_improved_wheat_production"
+	texturefile = "gfx/interface/goals/goal_improved_wheat_production.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_enhanced_magic"
+	texturefile = "gfx/interface/goals/goal_enhanced_magic.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_better_refined_iron_shavings"
+	texturefile = "gfx/interface/goals/goal_better_refined_iron_shavings.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_natural_magic"
+	texturefile = "gfx/interface/goals/goal_natural_magic.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_colour_experiments"
+	texturefile = "gfx/interface/goals/goal_colour_experiments.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_rose"
+	texturefile = "gfx/interface/goals/goal_rose.dds"			
+	}	
+
+	
+
+#echainaian
+	SpriteType = {
 	name = "GFX_goal_focus_on_cavalry"
 	texturefile = "gfx/interface/goals/goal_focus_on_cavalry.dds"			
 	}	

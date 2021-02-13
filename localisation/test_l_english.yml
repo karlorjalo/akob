@@ -12,9 +12,13 @@
  TST_neutrality_ADJ:0 "Test Country"
  TST_communism_ADJ:0 "Test Country"
  #####
+ 
  AGR_communism:0 "Agra"
+ AGR_fascism:0 "Agran Empire"
+ AGR_neutrality:0 "Kingdom of Agra"
  ARS_fascism:0 "Kingdom of Airestonia"
  ICR_fascism:0 "Icrusian Empire"
+ ICR_communism:0 "Democratic Republic of Icrusian states"
  TRB_neutrality:0 "Trubian Confederacy"
  EFR_neutrality:0 "Kingdom of Efror"
  ARB_neutrality:0 "The Arbiters"
@@ -22,5 +26,7 @@
  ILD_neutrality:0 "kingdom of Ilidea"
  ECH_neutrality:0 "Echainaian Empire"
  THB_neutrality:0 "Free Theberia"
- GOZ_neutrality:0 "Gozyr Mercantile Federation"
+ GOZ_democratic:0 "Gozyr Mercantile Federation"
+ GOZ_neutrality:0 "Kingdom of Gozyr"
  OBX_neutrality:0 "Principality of Obrax"
+ WSL_neutrality:0 "Toxic Wasteland"

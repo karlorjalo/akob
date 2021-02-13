@@ -1,0 +1,36 @@
+ideas = {
+
+	country = {
+		not_a_country = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = OBX
+			}
+
+			available = {
+				
+			}
+			
+#			on_add = {
+#			
+#			}
+			
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			rule = {
+				can_not_declare_war = yes
+			}
+		}
+		
+	}
+	
+}

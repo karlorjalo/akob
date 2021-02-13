@@ -15,7 +15,7 @@ technologies = {
 	matchlock1 = {
 
 		enable_equipments = {
-			matchlock1
+			rifle_1
 		}
 		
 		enable_subunits = {
@@ -889,7 +889,7 @@ technologies = {
 		land_night_attack = 0.1
 		
 		enable_equipments = {
-			flintlock1
+			rifle_2
 		}
 
 		path = {
@@ -1374,8 +1374,8 @@ technologies = {
 		}
 		
 		categories = {
-			motorized_equipment
 			infantry_tech
+			cavalry
 		}
 		
 		ai_will_do = {
@@ -1405,7 +1405,7 @@ technologies = {
 	heavy_cuirassier1 = {
 
 		enable_subunits = {
-			heavy_cuirassier1
+			heavy_cuirassier
 		}
 
 		enable_equipments = {
@@ -1426,8 +1426,8 @@ technologies = {
 		}
 		
 		categories = {
-			motorized_equipment
-			armor
+			infantry_tech
+			cavalry
 		}
 		
 		ai_will_do = {
@@ -1457,7 +1457,11 @@ technologies = {
 	light_cuirassier1 = {
 
 		enable_equipments = {
-			light_cuirassier1
+			light_cuirassier
+		}
+
+		enable_subunits = {
+			light_cuirassier
 		}
 		
 		path = {
@@ -1473,8 +1477,8 @@ technologies = {
 		}
 		
 		categories = {
-			motorized_equipment
-			armor
+			infantry_tech
+			cavalry
 		}
 		
 		ai_will_do = {
@@ -1525,8 +1529,8 @@ technologies = {
 		}
 
 		categories = {
-			motorized_equipment
-			armor
+			infantry_tech
+			cavalry
 		}
 
 		ai_will_do = {
@@ -1567,9 +1571,8 @@ technologies = {
 		}
 		
 		categories = {
-			motorized_equipment
 			infantry_tech
-			cat_mechanized_equipment
+			cavalry
 		}
 		
 		ai_will_do = {
@@ -1591,9 +1594,8 @@ technologies = {
 		}
 		
 		categories = {
-			motorized_equipment
 			infantry_tech
-			cat_mechanized_equipment
+			cavalry
 		}
 		
 		ai_will_do = {
@@ -1645,22 +1647,11 @@ technologies = {
 		enable_equipments = {
 			light_lancer1
 		}
+
+		enable_subunits = {
+			light_lancer
+		}
 		
-		motorized = {
-			hardness = 1.0
-		}
-		mot_artillery_brigade = {
-			hardness = 1.0
-		}
-		mot_anti_tank_brigade = {
-			hardness = 1.0
-		}
-		mot_anti_air_brigade = {
-			hardness = 1.0
-		}
-		mot_rocket_artillery_brigade = {
-			hardness = 1.0
-		}
 
 		path = {
 			leads_to_tech = light_lancer2
@@ -1675,9 +1666,8 @@ technologies = {
 		}
 		
 		categories = {
-			motorized_equipment
 			infantry_tech
-			cat_mechanized_equipment
+			cavalry
 		}
 		
 		ai_will_do = {
@@ -1693,6 +1683,10 @@ technologies = {
 
 		enable_equipments = {
 			heavy_lancer1
+		}
+
+		enable_subunits = {
+			heavy_lancer
 		}
 
 		allow_branch = {
@@ -1716,10 +1710,8 @@ technologies = {
 		}
 		
 		categories = {
-			motorized_equipment
 			infantry_tech
-			cat_mechanized_equipment
-			tp_tech
+			cavalry
 		}
 		
 		ai_will_do = {
@@ -1738,11 +1730,6 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = heavy_lancer_support
-			research_cost_coeff = 1
-		}
-
-		path = {
 			leads_to_tech = heavy_lancer3
 			research_cost_coeff = 1
 		}
@@ -1755,10 +1742,8 @@ technologies = {
 		}
 		
 		categories = {
-			motorized_equipment
 			infantry_tech
-			cat_mechanized_equipment
-			tp_tech
+			cavalry
 		}
 		
 		ai_will_do = {
@@ -1780,9 +1765,8 @@ technologies = {
 		}
 		
 		categories = {
-			motorized_equipment
 			infantry_tech
-			cat_mechanized_equipment
+			cavalry
 		}
 		
 		ai_will_do = {
@@ -1794,11 +1778,6 @@ technologies = {
 
 		enable_equipments = {
 			light_lancer2
-		}
-
-		path = {
-			leads_to_tech = light_lancer_support
-			research_cost_coeff = 1
 		}
 
 		path = {
@@ -1814,9 +1793,8 @@ technologies = {
 		}
 		
 		categories = {
-			motorized_equipment
 			infantry_tech
-			cat_mechanized_equipment
+			cavalry
 		}
 		
 		ai_will_do = {
@@ -1838,9 +1816,8 @@ technologies = {
 		}
 		
 		categories = {
-			motorized_equipment
 			infantry_tech
-			cat_mechanized_equipment
+			cavalry
 		}
 		
 		ai_will_do = {
@@ -1852,11 +1829,6 @@ technologies = {
 
 		enable_equipments = {
 			heavy_cuirassier2
-		}
-
-		mechanized = {
-			soft_attack = 0.15
-			hard_attack = 0.15
 		}
 
 		path = {
@@ -1872,9 +1844,8 @@ technologies = {
 		}
 		
 		categories = {
-			motorized_equipment
 			infantry_tech
-			cat_mechanized_equipment
+			cavalry
 		}
 		
 		ai_will_do = {

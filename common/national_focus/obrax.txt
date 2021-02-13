@@ -1,0 +1,59 @@
+focus_tree = {
+	id = obrax_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = OBX
+
+		}
+
+		#modifier = {
+		#	add = 10
+		#	original_tag = OBX
+		#	has_dlc = "Together for Victory"
+		#}
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 3000 }
+
+	focus = {
+		id = OBX_hermits_of_ambulas
+		icon = GFX_goal_generic_construct_military
+		x = 5
+		y = 0
+		#relative_position_id = AST_empower_the_workers
+		#prerequisite = { focus = AST_workers_paradise }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 1
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			WSL = { transfer_state = 71 }
+			WSL = { transfer_state = 52 }
+			WSL = { transfer_state = 33 }
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	
+
+}		
