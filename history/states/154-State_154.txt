@@ -8,14 +8,14 @@ state={
 	}
 
 	history={
-		owner = ARB
+		owner = QOH
 		buildings = {
 			infrastructure = 7
 			arms_factory = 1
 			industrial_complex = 1
 
 		}
-		add_core_of = ARB
+		add_core_of = QOH
 		victory_points = {
         	    530 10
         	}

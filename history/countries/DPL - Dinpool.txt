@@ -1,4 +1,4 @@
-﻿capital = 201
+﻿capital = 183
 
 #OOB = "ALB_1936"
 
@@ -6,15 +6,14 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = neutrality
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	neutrality = 9
-	fascism = 91
+	neutrality = 100
 }
 
 set_convoys = 5

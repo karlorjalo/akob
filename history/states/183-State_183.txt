@@ -8,12 +8,12 @@ state={
 	}
 
 	history={
-		owner = ARB
+		owner = DPL
 		buildings = {
 			infrastructure = 3
 
 		}
-		add_core_of = ARB
+		add_core_of = DPL
 		victory_points = {
         	    531 1
         	}

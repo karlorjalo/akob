@@ -784,7 +784,7 @@ ai_will_do = {
 } 
  
 focus = {
-id = TRB_give_our_troops_rose_petals
+id = TRB_give_our_troops_liqufied_rose_metals
 x = 23
 y = 8
 icon = GFX_goal_rose
@@ -1036,7 +1036,7 @@ ai_will_do = {
 }
 } 
 focus = {
-id = TRB_subsidise_gekken_bark_powder
+id = TRB_subsidise_beusprite_powder
 x = 1
 y = 9
 icon = GFX_focus_generic_self_management
@@ -1202,7 +1202,7 @@ x = 23
 y = 9
 icon = GFX_focus_generic_strike_at_democracy1
 #relative_position_id = AST_empower_the_workers
-prerequisite = { focus = TRB_give_our_troops_rose_petals }
+prerequisite = { focus = TRB_give_our_troops_liqufied_rose_metals }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
 }
@@ -1519,12 +1519,12 @@ ai_will_do = {
 } 
  
 focus = {
-id = TRB_improve_the_gekken_extraction_process
+id = TRB_improve_the_beusprite_extraction_process
 x = 1
 y = 10
 icon = GFX_goal_generic_air_production
 #relative_position_id = AST_empower_the_workers
-prerequisite = { focus = TRB_subsidise_gekken_bark_powder }
+prerequisite = { focus = TRB_subsidise_beusprite_powder }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
 }
@@ -2104,12 +2104,12 @@ ai_will_do = {
 }
 } 
 focus = {
-id = TRB_grow_more_gekken
+id = TRB_grow_more_beusprite
 x = 1
 y = 11
 icon = GFX_goal_lucrative_plantations
 #relative_position_id = AST_empower_the_workers
-prerequisite = { focus = TRB_improve_the_gekken_extraction_process }
+prerequisite = { focus = TRB_improve_the_beusprite_extraction_process }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
 }
@@ -2684,7 +2684,7 @@ x = 1
 y = 12
 icon = GFX_goal_natural_magic
 #relative_position_id = AST_empower_the_workers
-prerequisite = { focus = TRB_grow_more_gekken }
+prerequisite = { focus = TRB_grow_more_beusprite }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
 }

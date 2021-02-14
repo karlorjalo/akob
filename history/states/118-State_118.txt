@@ -8,14 +8,14 @@ state={
 	}
 
 	history={
-		owner = ARB
+		owner = CTP
 		buildings = {
 			infrastructure = 7
 			arms_factory = 1
 			industrial_complex = 1
 
 		}
-		add_core_of = ARB
+		add_core_of = CTP
 		victory_points = {
         	    295 5
         	}

@@ -8,14 +8,14 @@ state={
 	}
 
 	history={
-		owner = ARB
+		owner = IMN
 		buildings = {
 			infrastructure = 8
 			arms_factory = 2
 			industrial_complex = 3
 
 		}
-		add_core_of = ARB
+		add_core_of = IMN
 		victory_points = {
         	    2275 10
         	}
