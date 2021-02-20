@@ -7,12 +7,12 @@ state={
 	}
 
 	history={
-		owner = ICR
+		owner = DCR
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = ICR
+		add_core_of = DCR
 		victory_points = {
         	    1518 10
         	}

@@ -1,0 +1,2446 @@
+focus_tree = {
+	id = qohphis_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = QOH
+
+		}
+
+		#modifier = {
+		#	add = 10
+		#	original_tag = AST
+		#	has_dlc = "Together for Victory"
+		#}
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 1500 }
+
+focus = {
+id = ARB_meeting_of_the_council_of_arbiters
+x = 26
+y = 1
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_state_of_the_mercenaries
+x = 6
+y = 2
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_international_affairs
+x = 21
+y = 2
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_arbiter_economy
+x = 41
+y = 2
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_continue_magical_practices
+x = 1
+y = 3
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_finally_fund_the_riflemen
+x = 6
+y = 3
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_big_strides_in_cavalry_technology
+x = 11
+y = 3
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_poke_fun_at_the_eastern_giants
+x = 21
+y = 3
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_individual_industrialisation
+x = 33
+y = 3
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_strengthen_the_entire_union
+x = 45
+y = 3
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_revamp_mage_thinking
+x = 1
+y = 4
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_understand_airestonian_big_guns
+x = 3
+y = 4
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_research_icrusian_rifle_designs
+x = 6
+y = 4
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_dispose_outdated_guns
+x = 8
+y = 4
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_pointier_sticks
+x = 11
+y = 4
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_support_icrusia
+x = 16
+y = 4
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_support_airestonia
+x = 22
+y = 4
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_apathy_towards_both_sides
+x = 27
+y = 4
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_mass_produce_factories
+x = 32
+y = 4
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_increase_factory_qualities
+x = 34
+y = 4
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_dunes_of_the_east
+x = 41
+y = 4
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_fertile_lands_of_the_west
+x = 49
+y = 4
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_willpower_training
+x = 1
+y = 5
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_read_artillery_manuals
+x = 3
+y = 5
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_study_documented_battles
+x = 5
+y = 5
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_standardise_arbiter_guns
+x = 7
+y = 5
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_study_icrusian_battle_tactics
+x = 9
+y = 5
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_breed_stronger_horses
+x = 11
+y = 5
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_sign_the_rifiord_accords
+x = 15
+y = 5
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_equipment_aid_for_icrusia
+x = 17
+y = 5
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_discussions_for_the_future
+x = 21
+y = 5
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_mercenary_talks
+x = 23
+y = 5
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_increase_mercenery_ranks
+x = 26
+y = 5
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_try_to_spread_our_influence
+x = 28
+y = 5
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_build_more_factories
+x = 31
+y = 5
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_create_more_factory_tools
+x = 33
+y = 5
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_production_plants_facing_shifton
+x = 35
+y = 5
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_leader_of_the_arbiters
+x = 38
+y = 5
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_misaross_older_brother
+x = 40
+y = 5
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_the_forgotten_state
+x = 42
+y = 5
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_in_the_down_under
+x = 44
+y = 5
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_treasury_of_the_arbiters
+x = 47
+y = 5
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_farms_farms_farms
+x = 49
+y = 5
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_jewel_of_the_arbiters
+x = 51
+y = 5
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+focus = {
+id = ARB_enhance_mage_wards
+x = 1
+y = 6
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_buy_echainaian_artillery
+x = 3
+y = 6
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_innovate_rifle_improvements
+x = 6
+y = 6
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_study_support_equipment_models
+x = 8
+y = 6
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_build
+_more_stables
+x = 11
+y = 6
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_restart_mercenary_momentum
+x = 16
+y = 6
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_discuss_our_pay
+x = 22
+y = 6
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_buff_up_the_merceneries
+x = 26
+y = 6
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_inplant_dependencies
+x = 28
+y = 6
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_repurpose_old_factories
+x = 32
+y = 6
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_increase_production_efficiency
+x = 34
+y = 6
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_upgrade_the_shifton_military_complex
+x = 38
+y = 6
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_expand_the_rywey_mines
+x = 40
+y = 6
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_build_the_gatesford_factories
+x = 42
+y = 6
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_breton_canals
+x = 44
+y = 6
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_open_new_investment_centres
+x = 47
+y = 6
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_grow_more_crops
+x = 49
+y = 6
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_macking_mines
+x = 51
+y = 6
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+focus = {
+id = ARB_promote_mage_abilities
+x = 1
+y = 7
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_combined_guns
+x = 4
+y = 7
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_self_sufficient_firepower
+x = 7
+y = 7
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_train_more_cavalrymen
+x = 11
+y = 7
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_icrusian_trade_deals
+x = 14
+y = 7
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_infliuence_icrusian_politics
+x = 16
+y = 7
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_a_meeting_with_redmond
+x = 18
+y = 7
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_the_dirty_underground_roads
+x = 21
+y = 7
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_technology_sharing
+x = 23
+y = 7
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_increase_mercenery_pay
+x = 26
+y = 7
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_reaffirm_partners
+x = 28
+y = 7
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_new_production_lines
+x = 31
+y = 7
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_decrease_wear_and_tear
+x = 33
+y = 7
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_gift_from_the_blacksmiths
+x = 35
+y = 7
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_renew_leases_on_the_opormouth_industrial_group
+x = 38
+y = 7
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_wigtonian_logging_factories
+x = 40
+y = 7
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_improve_dinpool_infrastructure
+x = 42
+y = 7
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_build_new_farms
+x = 44
+y = 7
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_leydon_city_project
+x = 47
+y = 7
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_expand_the_parvino_grain_mills
+x = 49
+y = 7
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_exploit_guildford_resources
+x = 51
+y = 7
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+focus = {
+id = ARB_one_wizard_army
+x = 1
+y = 8
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_combined_arms
+x = 6
+y = 8
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_workhorse_of_the_army
+x = 11
+y = 8
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_the_2_shoulders_of_ambulas
+x = 16
+y = 8
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_increase_mercenery_help
+x = 21
+y = 8
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_work_with_airestonian_tacticians
+x = 23
+y = 8
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_arbiter_propaganda_machine
+x = 26
+y = 8
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_haggle_for_better_monetary_deals
+x = 28
+y = 8
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_abiter_autarky
+x = 33
+y = 8
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_seeing_the_west_eye_to_eye
+x = 41
+y = 8
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_far_beyond_the_eastern_backwater
+x = 49
+y = 8
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_troubles_brewing_south
+x = 21
+y = 9
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_supply_more_mercenaries
+x = 20
+y = 10
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_exploit_mercenary_leverages
+x = 22
+y = 10
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_garner_more_mercenary_help
+x = 19
+y = 11
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_recruit_more_citizens
+x = 21
+y = 11
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_advanced_warmongering
+x = 23
+y = 11
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = ARB_the_arbiters_land_of_mercenaries
+x = 21
+y = 12
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+}		

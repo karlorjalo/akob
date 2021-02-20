@@ -11,6 +11,8 @@ GOZ = "countries/Gozyr.txt"
 THB = "countries/Theberia.txt"
 OBX = "countries/Obrax.txt"
 WSL = "countries/Wasteland.txt"
+
+#Arbiter states
 CTP = "countries/Claetport.txt"
 DPL = "countries/Dinpool.txt"
 IMN = "countries/Illemont.txt"
@@ -18,4 +20,8 @@ QOH = "countries/Qohphis.txt"
 YLC = "countries/Ylecstin.txt"
 DED = "countries/Drecding.txt"
 MRO = "countries/Misaross.txt"
+
+#Icrusian civil war
+DCR = "countries/Democratic_icrusia.txt"
+LCR = "countries/Loyalist_icrusia.txt"
 

@@ -31,6 +31,10 @@
  OBX_neutrality:0 "Principality of Obrax"
  WSL_neutrality:0 "Toxic Wasteland"
  
+ #Icrusian civil war
+ DCR_fascism:0 "Republic of Icrusia"
+ LCR_fascism:0 "Icrusia Military State"
+ 
  #arbiters
   MRO_neutrality:0 "Misaross"
   CTP_neutrality:0 "Cleatport"

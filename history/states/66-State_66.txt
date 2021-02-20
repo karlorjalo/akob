@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = ICR
+		owner = LCR
 		buildings = {
 			infrastructure = 5
 			arms_factory = 4
@@ -21,7 +21,7 @@ state={
 		victory_points = {
         	    1891 10
         	}
-		add_core_of = ICR
+		add_core_of = LCR
 
 	}
 
