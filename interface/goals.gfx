@@ -1,6 +1,53 @@
 spriteTypes = {	
 
 	SpriteType = {
+	name = "GFX_goal_influence_icrusia"
+	texturefile = "gfx/interface/goals/goal_influence_icrusia.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_influence_echainaian"
+	texturefile = "gfx/interface/goals/goal_influence_echainaian.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_influence_trubia"
+	texturefile = "gfx/interface/goals/goal_influence_trubia.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_influence_airestonia"
+	texturefile = "gfx/interface/goals/goal_influence_airestonia.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_influence_ilidea"
+	texturefile = "gfx/interface/goals/goal_influence_ilidea.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_help_cleatport"
+	texturefile = "gfx/interface/goals/goal_help_cleatport.dds"			
+	}	
+	SpriteType = {
+	name = "GFX_goal_help_drecding"
+	texturefile = "gfx/interface/goals/goal_help_drecding.dds"			
+	}	
+	SpriteType = {
+	name = "GFX_goal_help_qohphis"
+	texturefile = "gfx/interface/goals/goal_help_qohphis.dds"			
+	}	
+	SpriteType = {
+	name = "GFX_goal_help_ylecstin"
+	texturefile = "gfx/interface/goals/goal_help_ylecstin.dds"			
+	}	
+	SpriteType = {
+	name = "GFX_goal_help_illemont"
+	texturefile = "gfx/interface/goals/goal_help_illemont.dds"			
+	}	
+	SpriteType = {
+	name = "GFX_goal_help_dinpool"
+	texturefile = "gfx/interface/goals/goal_help_dinpool.dds"			
+	}	
+
+#trubia
+	SpriteType = {
 	name = "GFX_goal_oh_astrigan"
 	texturefile = "gfx/interface/goals/goal_oh_astrigan.dds"			
 	}	

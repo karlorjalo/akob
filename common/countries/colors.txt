@@ -1,14 +1,61 @@
 #reload countrycolors
 
-DCR = {
-	color = rgb { 0 0 204 }
-	color_ui = rgb { 51 51 255 }
+ICR = {
+	color = rgb { 66 68 106 }
+	color_ui = rgb { 66 68 106 }
+}
+AGR = {
+	color = rgb { 247 22 22 }
+	color_ui = rgb { 247 22 22 }
+}
+THB = {
+	color = rgb { 179 174 158 }
+	color_ui = rgb { 179 174 158 }
+}
+OBX = {
+	color = rgb { 252 245 55 }
+	color_ui = rgb { 252 245 55 }
+}
+TRB = {
+	color = rgb { 105 66 112 }
+	color_ui = rgb { 105 66 112 }
+}
+LTV = {
+	color = rgb { 26 101 49 }
+	color_ui = rgb { 26 101 49 }
+}
+ECH = {
+	color = rgb { 208 147 57 }
+	color_ui = rgb { 208 147 57 }
+}
+GOZ = {
+	color = rgb { 96 197 255 }
+	color_ui = rgb { 96 197 255 }
 }
 ILD = {
-	color = rgb { 67 127 63 }
-	color_ui = rgb { 87 165 82 }
+	color = rgb { 29 141 126 }
+	color_ui = rgb { 29 141 126 }
 }
+EFR = {
+	color = rgb { 247 208 158 }
+	color_ui = rgb { 247 208 158 }
+}
+WSL = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+ARS = {
+	color = rgb { 63 161 111 }
+	color_ui = rgb { 63 161 111 }
+}
+
+
+DCR = {
+	color = rgb { 100 150 193 }
+	color_ui = rgb { 100 150 193 }
+}
+
 LCR = {
-	color = rgb { 229 138 47 }
-	color_ui = rgb { 229 138 47 }
+	color = rgb { 152 60 85 }
+	color_ui = rgb { 152 60 85 }
 }
